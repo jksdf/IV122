@@ -1,6 +1,7 @@
 import bisect
 import math
 from collections import defaultdict
+from typing import List
 
 import numpy as np
 import svgwrite
@@ -9,7 +10,6 @@ import svgwrite.shapes
 from PIL import Image
 
 from src.Base import Base
-from src.Base import AbstractFilenameProvider
 
 
 def divisor_count(n):
@@ -40,7 +40,7 @@ class PartA(Base):
         return 'A'
 
     def run(self, fnprovider):
-        return '\n' + '\n'.join(
+        return '\n'.join(
             ['{}: {}'.format(n + 1, s) for n, s in enumerate([self.a1(), self.a2(), self.a3(), self.a4(), self.a5()])])
 
     def a1(self, n=10000):
@@ -81,7 +81,7 @@ class PartA(Base):
 
     def a4(self, limit=1000):
         sm = 0
-        for p in primes():
+        for p in genprimes():
             if p >= limit:
                 break
             if '3' not in str(p):
@@ -104,7 +104,7 @@ def isprime(n):
     return True
 
 
-def primes():
+def genprimes():
     n = 2
     while True:
         while not isprime(n):
@@ -136,6 +136,14 @@ def star(drawing: svgwrite.drawing.Drawing, steps=10, pos=(0, 0)):
     corner(drawing, pos=add_tuple(pos, (200, 100)), direction=(-1, -1), steps=steps)
 
 
+def inverse_star(drawing: svgwrite.drawing.Drawing, steps=10, pos=(0, 0)):
+    corner(drawing, pos=add_tuple(pos, (100, 0)), direction=(1, 1), steps=steps)
+    corner(drawing, pos=add_tuple(pos, (100, 0)), direction=(-1, 1), steps=steps)
+
+    corner(drawing, pos=add_tuple(pos, (100, 200)), direction=(1, -1), steps=steps)
+    corner(drawing, pos=add_tuple(pos, (100, 200)), direction=(-1, -1), steps=steps)
+
+
 def calculate_color(x, y, ):
     print('x', x, 'y', y, )
     return
@@ -147,7 +155,7 @@ class PartB(Base):
 
     def run(self, fnprovider):
         fns = []
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'raster')
         fns.append(fn)
         imgdim = 300
         imgsize = (imgdim, imgdim)
@@ -157,11 +165,13 @@ class PartB(Base):
         image = Image.fromarray(np.uint8(image_array))
         image.save(fn)
 
-        fn = fnprovider.get_filename('.svg')
+        fn = fnprovider.get_filename('.svg', 'star')
         fns.append(fn)
         drawing = svgwrite.Drawing(fn)
         star(drawing, pos=(0, 0))
         star(drawing, pos=(200, 0), steps=30)
+        inverse_star(drawing, pos=(0, 200))
+        inverse_star(drawing, pos=(200, 200), steps=30)
         drawing.save()
         return ', '.join(fns)
 
@@ -202,29 +212,56 @@ class Fib:
         return res != len(self.data) and self.data[res] == item
 
 
+def trace(x, y, size, primes, delta):
+    pos = (x, y)
+    n = 0
+    while size > pos[0] >= 0 and size > pos[1] >= 0:
+        if primes[pos] == 0:
+            break
+        n += 1
+        pos = add_tuple(pos, delta)
+    return n
+
+
 class PartC(Base):
     def name(self):
         return 'C'
 
     def run(self, fnprovider):
         fns = {}
-        ulam = create_ulam(500)
+        size = 500
+        ulam = create_ulam(size)
 
-        fn = fnprovider.get_filename('.png')
+        primes = np.uint8(np.vectorize(isprime)(ulam))
+        fn = fnprovider.get_filename('.png', 'prime')
         fns['Primes'] = fn
-        Image.fromarray(np.uint8(np.vectorize(isprime)(ulam)) * 255, 'L').save(fn)
+        Image.fromarray(primes * 255, 'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
+        traces = np.zeros((2,)+primes.shape, dtype=np.uint8)
+        dim= 2*size+1
+        for x in range(dim):
+            for y in range(dim):
+                traces[0][x][y] = trace(x, y, dim, primes, (1, 1)) + trace(x, y, dim, primes, (-1, -1)) - (1 if primes[x][y] else 0)
+                traces[1][x][y] = trace(x, y, dim, primes, (-1, 1)) + trace(x, y, dim, primes, (1, -1)) - (1 if primes[x][y] else 0)
+        threshold = 3
+        d1 = traces[0] > threshold
+        d2 = traces[1] > threshold
+        lines = np.dstack((np.uint8(d2) * 255, np.zeros(primes.shape, dtype=np.uint8), np.uint8(d1) * 255))
+        fn = fnprovider.get_filename('.png', 'lines')
+        fns['Lines'] = fn
+        Image.fromarray(lines, 'RGB').save(fn)
+
+        fn = fnprovider.get_filename('.png', 'div5')
         fns['Div 5'] = fn
         Image.fromarray(np.uint8(np.vectorize(lambda n: n % 5 == 0)(ulam)) * 255, 'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'div8')
         fns['Div 8'] = fn
         Image.fromarray(np.uint8(np.vectorize(lambda n: n % 5 == 0)(ulam)) * 255, 'L').save(fn)
 
         fib = Fib()
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'fib')
         fns['Fib'] = fn
         Image.fromarray(np.uint8(np.vectorize(fib.__contains__)(ulam)) * 255, 'L').save(fn)
 
@@ -263,42 +300,35 @@ class PartD(Base):
 
         size = 1500
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'pairwise')
         fns['Are pairwise divisible'] = fn
         Image.fromarray(
             np.fromfunction(lambda x, y: 255 * np.uint8(np.gcd(x + 1, y + 1) != 1), shape=(size, size),
                             dtype=np.uint32),
             'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'gcd')
         fns['GCD / MAX'] = fn
         Image.fromarray(
             np.fromfunction(lambda x, y: np.uint8(np.gcd(x + 1, y + 1) * 255 / np.maximum(x + 1, y + 1)),
                             shape=(size, size), dtype=np.uint32),
             'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
-        fns['GCD / MAX'] = fn
-        Image.fromarray(
-            np.fromfunction(lambda x, y: np.uint8(np.gcd(x + 1, y + 1) * 255 / np.maximum(x + 1, y + 1)),
-                            shape=(size, size), dtype=np.uint32),
-            'L').save(fn)
-
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'gcdmod')
         fns['GCD mod time'] = fn
         stepsmod = np.fromfunction(lambda x, y: np.vectorize(gcd_mod)(x + 1, y + 1), shape=(size, size),
                                    dtype=np.uint32)
         stepsmod_n = stepsmod * 255 / np.max(stepsmod)
         Image.fromarray(np.uint8(stepsmod_n), 'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'gcdsub')
         fns['GCD sub time'] = fn
         stepssub = np.fromfunction(lambda x, y: np.vectorize(gcd_sub)(x + 1, y + 1), shape=(size, size),
                                    dtype=np.uint32)
         stepssub_n = stepssub * 255 / np.max(stepssub)  # Normalize the step counts
         Image.fromarray(np.uint8(stepssub_n), 'L').save(fn)
 
-        fn = fnprovider.get_filename('.png')
+        fn = fnprovider.get_filename('.png', 'gcdboth')
         fns['both GCD (blue = SUB, red = MOD) (log scale)'] = fn
         stepssub = np.log(stepssub)
         stepsmod = np.log(stepsmod)
@@ -307,8 +337,7 @@ class PartD(Base):
         stepsmod_n2 = np.uint8(stepsmod * 255 / mx)
         Image.fromarray(np.dstack((stepssub_n2, np.zeros((size, size), dtype=np.uint8), stepsmod_n2)), 'RGB').save(fn)
 
-        return '\n' + ',\n'.join('{}: {}'.format(i, j) for i, j in fns.items())
+        return ',\n'.join('{}: {}'.format(i, j) for i, j in fns.items())
 
 
-SOLUTIONS = [PartA(), PartB(), PartC(), PartD()]
-# SOLUTIONS = {'D': d}
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC(), PartD()]
