@@ -8,11 +8,11 @@ import src.week1.Solution
 
 def run_task(week, task, fnprovider):
     try:
-        res = task.run(fnprovider('{}_{}_'.format(week, task.name())))
+        res = task.run(fnprovider('{}_{}_'.format(week, task.name)))
     except Exception as e:
         res = 'The task has raised a {} exception'.format(e)
         traceback.print_exc()
-    print('\n{}\n\nWeek {} Part {}:\n{}'.format('#' * 80, week, task.name(), res))
+    print('\n{}\n\nWeek {} Part {}:\n{}'.format('#' * 80, week, task.name, res))
 
 
 def run(args):
@@ -23,7 +23,7 @@ def run(args):
             tasks.append((week, task))
     for week, task in args.tasks:
         for otask in solutions[week]:
-            if otask.name() == task:
+            if otask.name == task:
                 tasks.append((week, otask))
                 break
     fnprovider = src.Base.TmpFilenameProvider if args.folder is None else (

@@ -1,6 +1,7 @@
 import abc
 import os
 import tempfile
+from collections import defaultdict
 
 
 class AbstractFilenameProvider:
@@ -44,8 +45,9 @@ class RealFilenameProvider(AbstractFilenameProvider):
         super().__init__(metadata)
         self.folder = folder
         self.prefix = metadata
-        self.count = -1
+        self.count = defaultdict(int)
 
     def get_filename(self, suffix=None, name=None):
-        self.count += 1
-        return os.path.join(self.folder, 'w{}_{}_{}{}'.format(self.prefix, name if name else '', self.count, suffix))
+        self.count[name] += 1
+        return os.path.join(self.folder,
+                            'w{}_{}_{}{}'.format(self.prefix, name if name else '', self.count[name], suffix))
