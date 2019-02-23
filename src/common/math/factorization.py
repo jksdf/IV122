@@ -4,8 +4,7 @@ from typing import Generator
 
 def divisor_count(n: int) -> int:
     divs = 0
-    for i in range(int(math.sqrt(n))):
-        i += 1
+    for i in range(1, int(math.sqrt(n)) + 1):
         if n % i == 0:
             divs += 1
     divs = 2 * divs - (1 if int(math.sqrt(n)) ** 2 == n else 0)
@@ -49,4 +48,3 @@ def gcd_sub(a: int, b: int) -> int:
             return count
         a, b = a - b, b
         count += 1
-    pass

@@ -1,11 +1,12 @@
 from collections import defaultdict
-from typing import List
+from typing import List, Dict, AbstractSet
 
 import numpy as np
 import svgwrite
 import svgwrite.gradients
 import svgwrite.shapes
 from PIL import Image
+from matplotlib import pyplot as plt
 
 from common.math.Collatz import Collatz
 from common.math.Fibonacci import Fibonacci
@@ -20,7 +21,8 @@ class PartA(Base):
 
     def run(self, fnprovider):
         return '\n'.join(
-            ['{}: {}'.format(n + 1, s) for n, s in enumerate([self.a1(), self.a2(), self.a3(), self.a4(), self.a5()])])
+            ['{}: {}'.format(n + 1, s) for n, s in
+             enumerate([self.a1(), self.a2(fnprovider), self.a3(), self.a4(), self.a5()])])
 
     def a1(self, n=10000):
         mx = [0, []]
@@ -32,30 +34,30 @@ class PartA(Base):
                 mx[1].append(i)
         return '{} ({} divisors)'.format(', '.join(map(str, mx[1])), mx[0])
 
-    def a2(self, top=1000, k=3):
+    def a2(self, fnprovider, top=1000, k=3):
         assert k > 0
-        squares = {i * i: {(i,)} for i in range(1, int(math.sqrt(top)) + 1) if i * i < top}
-        prev = squares
+        squares: Dict[int, int] = {i * i: i for i in range(1, int(math.sqrt(top)) + 1) if i * i < top}
+        prev: Dict[int, AbstractSet[Tuple[int, ...]]] = {key: {(value,)} for key, value in squares.items()}
         for count in range(1, k):
             new = defaultdict(set)
-            for anum, aitems in prev.items():
-                for bnum, bitems in squares.items():
-                    if anum + bnum < top:
-                        for i in aitems:
-                            for j in bitems:
-                                new[anum + bnum].add(tuple(sorted(i + j)))
+            for leftsum, tuples in prev.items():
+                for square, base in squares.items():
+                    if leftsum + square < top:
+                        for tup in tuples:
+                            new[leftsum + square].add(tuple(sorted((base,) + tup)))
             prev = new
-
-        return '{} numbers (smaller than {}) can not be written as a sum of {} squares'.format(
-            top - 1 - len(prev), top, k)
+        fn = fnprovider.get_filename(suffix='.png', name='sumsqdist')
+        value, versions = zip(*prev.items())
+        versions = list(map(len, versions))
+        plt.clf()
+        plt.bar(value, versions)
+        plt.savefig(fn)
+        return '{} numbers (smaller than {}) can not be written as a sum of {} squares, distribution in {}'.format(
+            top - 1 - len(prev), top, k, fn)
 
     def a3(self, limit=10000):
         collatz = Collatz()
-        mx = (-1, 0)
-        for i in range(1, limit):
-            steps = len(collatz.get(i))
-            if mx[0] < steps:
-                mx = (steps, i)
+        mx = max((collatz.get(i), i) for i in range(1, limit))
         return '{} completes in {} steps'.format(mx[1], mx[0])
 
     def a4(self, limit=1000):
@@ -96,7 +98,7 @@ class PartB(Base):
         self.star(drawing, pos=(0, 0))
         self.star(drawing, pos=(200, 0), steps=30)
         self.inverse_star(drawing, pos=(0, 200))
-        self.inverse_star(drawing, pos=(200, 200), steps=30)
+        self.small_inverse_square(drawing, pos=(250, 250))
         drawing.save()
         return ', '.join(fns)
 
@@ -104,7 +106,6 @@ class PartB(Base):
         transform = lambda x: add_tuple(pos, mult_tuple(direction, x))
         for i in range(steps + 1):
             p = size / steps * i
-
             drawing.add(svgwrite.shapes.Line(transform((p, 0)), transform((size, p)), stroke='black'))
 
     def star(self, drawing: svgwrite.drawing.Drawing, steps=10, pos=(0, 0)):
@@ -116,9 +117,14 @@ class PartB(Base):
     def inverse_star(self, drawing: svgwrite.drawing.Drawing, steps=10, pos=(0, 0)):
         self.corner(drawing, pos=add_tuple(pos, (100, 0)), direction=(1, 1), steps=steps)
         self.corner(drawing, pos=add_tuple(pos, (100, 0)), direction=(-1, 1), steps=steps)
-
         self.corner(drawing, pos=add_tuple(pos, (100, 200)), direction=(1, -1), steps=steps)
         self.corner(drawing, pos=add_tuple(pos, (100, 200)), direction=(-1, -1), steps=steps)
+
+    def small_inverse_square(self, drawing: svgwrite.drawing.Drawing, steps=10, pos=(0, 0)):
+        self.corner(drawing, pos=add_tuple(pos, (0, 0)), direction=(1, 1), steps=steps)
+        self.corner(drawing, pos=add_tuple(pos, (100, 0)), direction=(-1, 1), steps=steps)
+        self.corner(drawing, pos=add_tuple(pos, (100, 100)), direction=(-1, -1), steps=steps)
+        self.corner(drawing, pos=add_tuple(pos, (0, 100)), direction=(1, -1), steps=steps)
 
 
 class PartC(Base):
@@ -129,18 +135,17 @@ class PartC(Base):
         size = 500
         ulam = create_ulam(size)
 
-        primes: np.ndarray = np.uint8(np.vectorize(isprime)(ulam))
         fn = fnprovider.get_filename('.png', 'prime')
         fns['Primes'] = fn
-        Image.fromarray(primes * 255, 'L').save(fn)
+        Image.fromarray(np.uint8(np.vectorize(isprime)(ulam)) * 255, 'L').save(fn)
 
         fn = fnprovider.get_filename('.png', 'div5')
         fns['Div 5'] = fn
-        Image.fromarray(np.uint8(np.vectorize(lambda n: n % 5 == 0)(ulam)) * 255, 'L').save(fn)
+        Image.fromarray(np.uint8(ulam % 5 == 0) * 255, 'L').save(fn)
 
         fn = fnprovider.get_filename('.png', 'div8')
         fns['Div 8'] = fn
-        Image.fromarray(np.uint8(np.vectorize(lambda n: n % 5 == 0)(ulam)) * 255, 'L').save(fn)
+        Image.fromarray(np.uint8(ulam % 8 == 0) * 255, 'L').save(fn)
 
         fib = Fibonacci()
         fn = fnprovider.get_filename('.png', 'fib')
