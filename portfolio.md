@@ -173,6 +173,7 @@ def gcd_mod(a: int, b: int) -> int:
 ```
 ![Modulo](/results/w1_D__gcdmod_1.png)
 * Obe verzie spolu (Červený kanál je odčítacia a modrý je modulo varianta):
+
 ![Odcitanie a modulo](/results/w1_D__gcdboth_1.png)
 
 
