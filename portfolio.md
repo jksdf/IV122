@@ -38,7 +38,7 @@ for count in range(1, k):
 prev
 ``` 
 Počet spôsobov, koľkými je možné vytvoriť tieto čísla:
-![Počet spôsobov, koľkými je možné vytvoriť tieto čísla](results\w1_A__sumsqdist_1.png)
+![Počet spôsobov, koľkými je možné vytvoriť tieto čísla](results/w1_A__sumsqdist_1.png)
 
 `3.` 6171 sa ukončí po 262 krokoch, čo je najviac zo všetkých čísel do 10000.
 
