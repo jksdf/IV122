@@ -99,7 +99,7 @@ def corner(self, drawing: svgwrite.drawing.Drawing, size: int = 100, steps=10, p
         p = size / steps * i
         drawing.add(svgwrite.shapes.Line(transform((p, 0)), transform((size, p)), stroke='black'))
 ```
-Výsledok (_Niektoré prehliadače ho nezobrazujú celý_):
+Výsledok:
 
 ![Stars](results/w1_B__star_1.svg)
 

@@ -94,7 +94,7 @@ class PartB(Base):
 
         fn = fnprovider.get_filename('.svg', 'star')
         fns.append(fn)
-        drawing = svgwrite.Drawing(fn)
+        drawing = svgwrite.Drawing(fn, size=(400, 400))
         self.star(drawing, pos=(0, 0))
         self.star(drawing, pos=(200, 0), steps=30)
         self.inverse_star(drawing, pos=(0, 200))
