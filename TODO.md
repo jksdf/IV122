@@ -1,5 +1,6 @@
 * [ ] Silne a slable stranky
-* [x] Portfolio 1
+* [ ] Portfolio 1
+  * [ ] Pridaj rozmery obrazkov (datasetov)
 * [ ] Portfolio 2
 * [ ] Portfolio 3
 * [ ] Portfolio 4
