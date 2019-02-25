@@ -1,12 +1,13 @@
+import time
 from collections import namedtuple
-from typing import List, Any, Tuple
+from typing import List, Any, Tuple, Iterable
 
 import matplotlib.colors
 import numpy as np
 from PIL import Image
 
 import common.math.combinatorics as combinatorics
-from common.math import pi
+from common.math import pi, arithmetics
 from common.python import sampling
 from common.python.tuples import mult_tuple
 from src.Base import Base, AbstractFilenameProvider
@@ -72,11 +73,50 @@ class PartC(Base):
     def run(self, fnprovider: AbstractFilenameProvider):
         res = {}
         repeat = 100
-        for time in (1,10,100,1000,10000, 100000, int(1e6)):
+        for time in (1, 10, 100, 1000, 10000, 100000, int(1e6)):
             res[f'lei{time}'] = sampling.sample(lambda: pi.leibniz_formula(time), repeat)
             res[f'arch{time}'] = sampling.sample(lambda: pi.archimedes_sequence(time), repeat)
             res[f'monte{time}'] = sampling.sample(lambda: pi.monte_carlo(time), repeat)
         return '\n'.join(f'{k}: {v}' for k, v in res.items())
 
 
-SOLUTIONS: List[Base] = [PartA(), PartB(), PartC()]
+class PartD(Base):
+    name = 'D'
+
+    def run(self, fnprovider: AbstractFilenameProvider):
+        fn = fnprovider.get_filename('.png', 'pow_efficiency')
+        self.efficiency_graph(fn, 123, (10 ** i for i in range(100)), 1000000007, trials=1000)
+        return '\n'.join([self.get(123, 1234567, 1000000007),
+                          self.get(9, 10, 2),
+                          self.get(123456, 12345678901234567890, 1000000007, perform_inefficient=False),
+                          f'efficiency graph {fn}'])
+
+    def efficiency_graph(self, savefile, n, es: Iterable, m, trials=10):
+        results = ([], [])
+        for e in es:
+            times = []
+            for _ in range(trials):
+                t0 = time.perf_counter_ns()
+                arithmetics.pow(n, e, m)
+                times.append(time.perf_counter_ns() - t0)
+            results[0].append(e)
+            results[1].append(sum(times) / len(times))
+        matplotlib.pyplot.semilogx(*results)
+        matplotlib.pyplot.savefig(savefile)
+        matplotlib.pyplot.clf()
+
+    def get(self, n, e, m, perform_inefficient=True):
+        t = time.perf_counter_ns()
+        p1 = arithmetics.pow(n, e, m)
+        t1 = time.perf_counter_ns() - t
+        if perform_inefficient:
+            t = time.perf_counter_ns()
+            p2 = arithmetics.pow_naive(n, e, m)
+            t2 = time.perf_counter_ns() - t
+            assert p1 == p2
+        else:
+            t2 = float('nan')
+        return f'{n}^{e} (mod {m}) = {p1} ({t1} ns efficient, {t2} ns inefficient)'
+
+
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC(), PartD()]
