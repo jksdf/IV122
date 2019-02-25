@@ -6,6 +6,8 @@ import numpy as np
 from PIL import Image
 
 import common.math.combinatorics as combinatorics
+from common.math import pi
+from common.python import sampling
 from common.python.tuples import mult_tuple
 from src.Base import Base, AbstractFilenameProvider
 
@@ -64,4 +66,17 @@ class PartB(Base):
         return img
 
 
-SOLUTIONS: List[Base] = [PartA(), PartB()]
+class PartC(Base):
+    name = 'C'
+
+    def run(self, fnprovider: AbstractFilenameProvider):
+        res = {}
+        repeat = 100
+        for time in (1,10,100,1000,10000, 100000, int(1e6)):
+            res[f'lei{time}'] = sampling.sample(lambda: pi.leibniz_formula(time), repeat)
+            res[f'arch{time}'] = sampling.sample(lambda: pi.archimedes_sequence(time), repeat)
+            res[f'monte{time}'] = sampling.sample(lambda: pi.monte_carlo(time), repeat)
+        return '\n'.join(f'{k}: {v}' for k, v in res.items())
+
+
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC()]
