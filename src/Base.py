@@ -18,10 +18,6 @@ class Base:
     def run(self, fnprovider: AbstractFilenameProvider):
         pass
 
-    @abc.abstractmethod
-    def name(self):
-        pass
-
     def __str__(self):
         return self.name()
 

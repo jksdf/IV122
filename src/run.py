@@ -4,6 +4,7 @@ import traceback
 
 import src.Base
 import src.week1.Solution
+import src.week2.Solution
 
 
 def run_task(week, task, fnprovider):
@@ -16,7 +17,7 @@ def run_task(week, task, fnprovider):
 
 
 def run(args):
-    solutions = {1: src.week1.Solution.SOLUTIONS}
+    solutions = {1: src.week1.Solution.SOLUTIONS, 2:src.week2.Solution.SOLUTIONS}
     tasks = []
     for week in (solutions if 'all' in args.weeks else args.weeks):
         for task in solutions[week]:
