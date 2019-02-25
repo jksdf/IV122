@@ -7,7 +7,7 @@
   * [x] Pridaj rozmery obrazkov (datasetov)
 * [ ] Portfolio 2
   * [ ] PartA
-  * [ ] PartB
+  * [x] PartB
   * [ ] PartC
   * [ ] PartD
   * [ ] Napis portfolio
