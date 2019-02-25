@@ -23,10 +23,13 @@ def run(args):
         for task in solutions[week]:
             tasks.append((week, task))
     for week, task in args.tasks:
+        found = False
         for otask in solutions[week]:
             if otask.name == task:
                 tasks.append((week, otask))
+                found = True
                 break
+        assert found
     fnprovider = src.Base.TmpFilenameProvider if args.folder is None else (
         lambda folder: (lambda meta: src.Base.RealFilenameProvider(folder, meta)))(args.folder)
     for week, task in tasks:
