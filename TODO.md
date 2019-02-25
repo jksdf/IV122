@@ -1,7 +1,16 @@
 * [ ] Silne a slable stranky
 * [ ] Portfolio 1
-  * [ ] Pridaj rozmery obrazkov (datasetov)
+  * [x] PartA
+  * [x] PartB
+  * [x] PartC
+  * [x] PartD
+  * [x] Pridaj rozmery obrazkov (datasetov)
 * [ ] Portfolio 2
+  * [ ] PartA
+  * [ ] PartB
+  * [ ] PartC
+  * [ ] PartD
+  * [ ] Napis portfolio
 * [ ] Portfolio 3
 * [ ] Portfolio 4
 * [ ] Portfolio 5
