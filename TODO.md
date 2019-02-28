@@ -4,7 +4,7 @@
   * [x] PartB
   * [x] PartC
   * [x] PartD
-  * [x] Pridaj rozmery obrazkov (datasetov)
+  * [ ] Pridaj rozmery obrazkov (datasetov)
 * [ ] Portfolio 2
   * [ ] PartA
   * [x] PartB
