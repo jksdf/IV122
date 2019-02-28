@@ -124,7 +124,7 @@ for i in range(4 * size):
 return array
 ```
 
-Na toto pole boli následne volané funkcie `int -> bool`, ktoré vytvorili rôzne vzory.
+Na toto pole o veľkosti `1001x1001` boli následne volané funkcie `int -> bool`, ktoré vytvorili rôzne vzory.
 
 Prvočísla:
 ![prvocisla](/results/w1_C__prime_1.png)
