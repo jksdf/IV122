@@ -176,6 +176,18 @@ def gcd_mod(a: int, b: int) -> int:
 
 ![Odcitanie a modulo](/results/w1_D__gcdboth_1.png)
 
+## Týždeň 2 - Kombinatorika, výpočty:
+
+[zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-cisla.pdf)
+
+### A) Generování kombinací, permutací, variací
+
+### B) Pascalův trojúhelník
+
+### C) Výpočet π
+
+### D) Umocňování
+
 
 
 
