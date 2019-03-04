@@ -1,10 +1,10 @@
+import math
 from enum import Enum
 
-import math
 import svgwrite
-
 import svgwrite.shapes
 
+from common.geometry.geometry import deg2rad
 from src.common.python.tuples import add_tuple
 
 
@@ -19,14 +19,12 @@ class Turtle:
         self.pen = PenStates.DOWN
         self.position = (500, 500)
         self.angle = 0
-        self.min = (0, 0)
 
     def forward(self, dist):
         radang = deg2rad(self.angle)
         nextpos = add_tuple(self.position, (math.cos(radang) * dist, math.sin(radang) * dist))
         if self.pen == PenStates.DOWN:
-            self.min = tuple(map(min, zip(self.min, nextpos)))
-            self.drawing.add(svgwrite.shapes.Line(start=self.position, end=nextpos, stroke='black'))
+            self.line(self.position, nextpos)
         self.position = nextpos
 
     def right(self, angle):
@@ -44,6 +42,9 @@ class Turtle:
     def penup(self):
         self.pen = PenStates.UP
 
+    def line(self, start, end):
+        self.drawing.add(svgwrite.shapes.Line(start=start, end=end, stroke='black'))
+
     def save(self, fn=None):
         if fn:
             self.drawing.saveas(fn)
@@ -51,5 +52,3 @@ class Turtle:
             self.drawing.save()
 
 
-def deg2rad(deg):
-    return deg / 180 * math.pi
