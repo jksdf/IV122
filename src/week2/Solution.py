@@ -1,3 +1,4 @@
+import math
 import time
 from collections import namedtuple
 from typing import List, Any, Tuple, Iterable
@@ -71,13 +72,25 @@ class PartC(Base):
     name = 'C'
 
     def run(self, fnprovider: AbstractFilenameProvider):
-        res = {}
+        res = {'lei': {}, 'arch': {}, 'monte': {}}
         repeat = 100
-        for time in (1, 10, 100, 1000, 10000, 100000, int(1e6)):
-            res[f'lei{time}'] = sampling.sample(lambda: pi.leibniz_formula(time), repeat)
-            res[f'arch{time}'] = sampling.sample(lambda: pi.archimedes_sequence(time), repeat)
-            res[f'monte{time}'] = sampling.sample(lambda: pi.monte_carlo(time), repeat)
-        return '\n'.join(f'{k}: {v}' for k, v in res.items())
+        for time in range(3,10):
+            time = 10 ** time
+            res['lei'][time] = sampling.sample(pi.leibniz_formula, time)
+            res['arch'][time] = sampling.sample(pi.archimedes_sequence, time)
+            res['monte'][time] = sampling.sample(pi.monte_carlo, time)
+        labels = []
+        for kind in res:
+            keys, vals = zip(*res[kind].items())
+            matplotlib.pyplot.loglog(keys, [abs(v - math.pi)/math.pi for v in vals])
+            labels.append(kind)
+        matplotlib.pyplot.legend(labels)
+        matplotlib.pyplot.xlabel('Time')
+        matplotlib.pyplot.ylabel('Runs')
+        fn = fnprovider.get_filename(suffix='.png', name='pi_precision')
+        matplotlib.pyplot.savefig(fn)
+        matplotlib.pyplot.clf()
+        return fn
 
 
 class PartD(Base):

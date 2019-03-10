@@ -184,9 +184,76 @@ def gcd_mod(a: int, b: int) -> int:
 
 ### B) Pascalův trojúhelník
 
+Pascalov trojuholník som vygeneroval pomocou objektu, ktorý memoruje hodnoty a 
+garantuje alokovanie pamäte pre každé volanie.
+```pythonstub
+def _get(self, r: int, c: int):
+    if self.data[r][c] is None:
+        if c == 0 or r == c:
+            self.data[r][c] = 1
+        else:
+            self.data[r][c] = self._get(r - 1, c - 1) + self._get(r - 1, c)
+            if self.mod is not None:
+                self.data[r][c] = self.data[r][c] % self.mod
+    return self.data[r][c]
+```
+
+![pascal 50 5](/results/w2_B__pascal_50_5_1.png)
+50 riadkov pascalovho trojuholníku so zafarbením `mod 5`.
+
+![pascal 500 5](/results/w2_B__pascal_500_5_1.png)
+500 riadkov pascalovho trojuholníku so zafarbením `mod 5`.
+
+![pascal 500 10](/results/w2_B__pascal_500_10_1.png)
+500 riadkov pascalovho trojuholníku so zafarbením `mod 10`.
+
 ### C) Výpočet π
 
+
+
 ### D) Umocňování
+
+Implementoval som 2 algoritmy:
+
+```pythonstub
+def pow(base: float, power: int, modulo: int):
+    ongoing = 1
+    exp = base % modulo
+    while power != 0:
+        if power % 2 == 1:
+            ongoing = (ongoing * exp) % modulo
+        power = power // 2
+        exp = (exp * exp) % modulo
+    return ongoing
+```
+Efektívny algoritmus na výpočet celočíselných mocnín.
+
+```pythonstub
+def pow_naive(base: float, power: int, modulo: int):
+    tmp = 1
+    for _ in range(power):
+        tmp = (tmp * base) % modulo
+    return tmp
+```
+Naivný algoritmus na výpočet celočíselných mocnín.
+
+Tieto algoritmy som následne porovnal na 3 rôznych výpočtoch:
+
+| Vzorec                                           | Čas efektívneho | Čas neefektívneho |  
+|--------------------------------------------------|-----------------|-------------------|
+| `123^1234567 (mod 1000000007)`                   | 7700 ns         | 140718000 ns      |   
+| `9^10 (mod 2)`                                   | 3100 ns         | 3700 ns           |   
+| `123456^12345678901234567890 (mod 1000000007)`   | 19000 ns        | N/A               |   
+
+Následne som zmeral rýchlosť efektívnej implementácie v závislosti od rastúceho exponentu (10 vzorkov pre každý bod):
+
+![rychlost algo](results/w2_D__pow_efficiency_1.png)
+
+Ako môžeme vidieť, zložitosť algoritmu naozaj rastie logaritmicky s rastúcim exponentom.
+
+
+
+
 
 
 
