@@ -6,10 +6,19 @@ from collections import defaultdict
 
 class AbstractFilenameProvider:
     def __init__(self, metadata=''):
-        pass
+        self.dict = {}
+
+    def get_filename(self, suffix=None, name=None, printable=None):
+        fn = self._get_filename(suffix, name)
+        if printable is not None:
+            self.dict[printable] = fn
+        return fn
+
+    def format_files(self, **extra):
+        return '\n'.join(f'{k}: {v}' for k, v in {**self.dict, **extra}.items())
 
     @abc.abstractmethod
-    def get_filename(self, suffix=None, name=None):
+    def _get_filename(self, suffix=None, name=None):
         pass
 
 
@@ -35,7 +44,7 @@ class TmpFilenameProvider(AbstractFilenameProvider):
         super().__init__(metadata)
         self.prefix = 'tmp433308' + metadata
 
-    def get_filename(self, suffix=None, name=None):
+    def _get_filename(self, suffix=None, name=None):
         return tempfile.NamedTemporaryFile(prefix=self.prefix + (name if name else ''),
                                            suffix=suffix,
                                            delete=False).name
@@ -48,7 +57,7 @@ class RealFilenameProvider(AbstractFilenameProvider):
         self.prefix = metadata
         self.count = defaultdict(int)
 
-    def get_filename(self, suffix=None, name=None):
+    def _get_filename(self, suffix=None, name=None):
         self.count[name] += 1
         return os.path.join(self.folder,
                             'w{}_{}_{}{}'.format(self.prefix, name if name else '', self.count[name], suffix))
