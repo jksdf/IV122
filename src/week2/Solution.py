@@ -73,8 +73,7 @@ class PartC(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         res = {'lei': {}, 'arch': {}, 'monte': {}}
-        repeat = 100
-        for time in range(3,10):
+        for time in range(3, 10):
             time = 10 ** time
             res['lei'][time] = sampling.sample(pi.leibniz_formula, time)
             res['arch'][time] = sampling.sample(pi.archimedes_sequence, time)
@@ -82,7 +81,7 @@ class PartC(Base):
         labels = []
         for kind in res:
             keys, vals = zip(*res[kind].items())
-            matplotlib.pyplot.loglog(keys, [abs(v - math.pi)/math.pi for v in vals])
+            matplotlib.pyplot.loglog(keys, [abs(v - math.pi) / math.pi for v in vals])
             labels.append(kind)
         matplotlib.pyplot.legend(labels)
         matplotlib.pyplot.xlabel('Time')
