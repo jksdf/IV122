@@ -25,8 +25,8 @@ class PartA(Base):
     name = 'A'
 
     def run(self, fnprovider: AbstractFilenameProvider):
-        fn = fnprovider.get_filename(suffix='.svg', name="polygon")
-        turtle = Turtle(fn)
+        fn = fnprovider.get_filename(suffix='.svg', name="shapes")
+        turtle = Turtle(fn, (50, 50))
         polygon(turtle, 5, 50)
         turtle.penup()
         turtle.forward(100)
@@ -36,7 +36,7 @@ class PartA(Base):
         turtle.forward(100)
         turtle.pendown()
         star(turtle, 7, 50)
-        turtle.save()
+        turtle.save(frame=(280, 100))
         return fn
 
 
@@ -53,9 +53,9 @@ class PartB(Base):
         self.grid(turtle)
         turtle.resetpos(position=(750, 0))
         self.triangles(turtle)
-        turtle.resetpos(position=(900, 0))
+        turtle.resetpos(position=(900, 50))
         self.flower(turtle)
-        turtle.save()
+        turtle.save(frame=(1000, 200))
         return fn
 
     def pentagon(self, turtle):
@@ -116,12 +116,12 @@ class PartC(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         fn = fnprovider.get_filename(".svg", "fractals")
-        turtle = Turtle(fn)
+        turtle = Turtle(fn, (50, 250))
         turtle.left(90)
-        self.ker(turtle, 10)
+        self.ker(turtle, 9, size=0.2)
         turtle.resetpos(position=(200, -150))
         turtle.right(60)
-        self.sierpinsky(turtle, 6, 3)
+        self.sierpinsky(turtle, 5, 9)
         turtle.resetpos(position=(350, -120))
         self.koch(turtle, 5, 0.8)
         turtle.resetpos(position=(600, -150))
@@ -129,8 +129,8 @@ class PartC(Base):
         turtle.resetpos(position=(900, -200))
         self.pentagon(turtle, 3, 10)
         turtle.resetpos(position=(1200, -200))
-        self.square_sierpinsky(turtle, 5, 2)
-        turtle.save()
+        self.square_sierpinsky(turtle, 4, 3)
+        turtle.save(frame=(1500, 500))
         return fn
 
     def ker(self, turtle, depth, size=0.1):

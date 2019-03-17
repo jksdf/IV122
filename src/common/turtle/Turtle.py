@@ -15,11 +15,12 @@ class PenStates(Enum):
 
 
 class Turtle:
-    def __init__(self, fn):
+    def __init__(self, fn, basepos=(0,0)):
         self.drawing = svgwrite.Drawing(fn)
         self.pen = PenStates.DOWN
         self.position = 0
         self.angle = 0
+        self.basepos = basepos
         self.resetpos()
 
     def forward(self, dist, usepen: Optional[bool] = None, color='black'):
@@ -48,10 +49,12 @@ class Turtle:
         self.drawing.add(svgwrite.shapes.Line(start=start, end=end, stroke=color))
 
     def resetpos(self, position=(0, 0), angle=0):
-        self.position = position[0] + 250, position[1] + 500
+        self.position = position[0] + self.basepos[0], position[1] + self.basepos[1]
         self.angle = angle
 
-    def save(self, fn=None):
+    def save(self, fn=None, frame=None):
+        if frame is not None:
+            self.drawing['width'], self.drawing['height'] = add_tuple(frame, self.basepos)
         if fn:
             self.drawing.saveas(fn)
         else:

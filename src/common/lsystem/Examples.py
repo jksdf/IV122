@@ -5,7 +5,7 @@ from common.turtle.Turtle import Turtle
 def triangle(fn):
     angle = 120
     length = 10
-    turtle = Turtle(fn)
+    turtle = Turtle(fn, (80,250))
     lsystem = LSystem({'F': lambda: turtle.forward(length),
                        'f': lambda: turtle.forward(length, usepen=False),
                        '+': lambda: turtle.right(angle),
@@ -23,7 +23,7 @@ def triangle(fn):
     lsystem.run(4)
     turtle.resetpos((400, 0))
     lsystem.run(5)
-    turtle.save()
+    turtle.save(frame=(500,150))
 
 
 def _stack_pop(turtle, posang):
@@ -33,7 +33,7 @@ def _stack_pop(turtle, posang):
 def weed(fn):
     angle = 22.5
     length = 10
-    turtle = Turtle(fn)
+    turtle = Turtle(fn, (150,650))
     turtle.left(90)
     stack = []
     lsystem = LSystem({'F': lambda: turtle.forward(length),
@@ -48,13 +48,13 @@ def weed(fn):
                        'Y': '-FX'},
                       'F')
     lsystem.run(5)
-    turtle.save(fn)
+    turtle.save(fn, frame=(150,30))
 
 
 def square_sierpinsky(fn):
     angle = 90
     length = 3
-    turtle = Turtle(fn)
+    turtle = Turtle(fn, (10,100))
     turtle.left(90)
     lsystem = LSystem({'F': lambda: turtle.forward(length),
                        'X': lambda: None,
@@ -63,12 +63,12 @@ def square_sierpinsky(fn):
                       {'F': 'F',
                        'X': 'XF-F+F-XF+F+XF-F+F-X'},
                       'F+XF+F+XF')
-    lsystem.run(6)
-    turtle.save(fn)
+    lsystem.run(4)
+    turtle.save(fn, (200,100))
 
 
 def cantor(fn, length=300):
-    turtle = Turtle(fn)
+    turtle = Turtle(fn, (20, 10))
     lsystem = LSystem({'F': lambda: turtle.forward(length),
                        'f': lambda: turtle.forward(length, usepen=False)},
                       {'F': 'FfF', 'f': 'fff'},
@@ -78,15 +78,15 @@ def cantor(fn, length=300):
         turtle.resetpos((0, i * 20))
         lsystem.run(i)
         length /= 3
-    turtle.save(fn)
+    turtle.save(fn, (350, 100))
 
 
 def crystal(fn):
-    turtle = Turtle(fn)
+    turtle = Turtle(fn,(2,2))
     lsystem = LSystem({'F': lambda: turtle.forward(2),
                        '+': lambda: turtle.right(90)},
                       {'F': 'FF+F++F+F'},
                       'F+F+F+F')
 
     lsystem.run(5)
-    turtle.save(fn)
+    turtle.save(fn, (490,490))
