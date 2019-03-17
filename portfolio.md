@@ -409,4 +409,29 @@ som tieto hodnoty normalizoval na rozsah hodnôt pixelu).
 
 ### D) Bonus: Skrývačky
 
-_TODO_
+Prvá skrývačka obsahuje text v modrom kanáli. Tak z neho vyberieme túto informáciu
+a zapíšeme ju do našeho výsledného obrázku.
+```pythonstub
+image.putpixel((x, y), 1 if source.getpixel((x, y))[2] != 0 else 0)
+```
+![S1](results/w4_D__skryvacka1_1.png)
+
+Druhá skrývačka obsahuje text na ostrých prechodoch od susedných pixelov. Tento prechod
+nájdeme nasledujúcim kódom.
+```pythonstub
+this = np.array(source.getpixel((x, y)))
+delta = 0
+for dx in (1, 0):
+    for dy in (1, 0):
+        if x + dx in range(image.width) and y + dy in range(image.height):
+            delta += np.sum(np.abs(np.array(source.getpixel((x + dx, y + dy))) - this))
+image.putpixel((x, y), 1 if delta < maxdelta else 0)
+```  
+![S2](results/w4_D__skryvacka2_1.png)
+
+Tretia skrývačka obsahuje text za XORom mriežky a je ku tomu textu pridaný šum.
+V tejto ukážke má `source` bitovú hĺbku 1. 
+```pythonstub
+image.putpixel((x, y), ((x+y)%2) ^ source.getpixel((x,y)))
+``` 
+![S3](results/w4_D__skryvacka3_1.png)

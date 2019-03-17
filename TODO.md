@@ -9,7 +9,8 @@
   * [ ] Pentagram absolútnimi hodnotami
 * [ ] Portfolio 4
   * [ ] Viac ukážok kódu
-  * [ ] Skrývačky
+  * [x] Skrývačky
+  * [ ] Vlastná skrývačka
 * [ ] Portfolio 5
 * [ ] Portfolio 6
 * [ ] Portfolio 7

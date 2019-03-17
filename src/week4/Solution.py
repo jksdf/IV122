@@ -5,6 +5,7 @@ from PIL import Image
 import numpy as np
 import math
 
+from common.math.geometry import normalize
 from src.common.python.tuples import *
 
 
@@ -203,11 +204,48 @@ class PartC(Base):
         return img
 
 
-def normalize(v: np.array) -> np.array:
-    norm = np.linalg.norm(v, ord=1)
-    if norm == 0:
-        norm = np.finfo(v.dtype).eps
-    return v / norm
+class PartD(Base):
+    name = 'D'
+
+    def run(self, fnprovider: AbstractFilenameProvider):
+        self.s1('resources/w4/skryvacka1.png').save(
+            fnprovider.get_filename('.png', 'skryvacka1', 'Skrývačka 1'))
+        self.s2('resources/w4/skryvacka2.png').save(
+            fnprovider.get_filename('.png', 'skryvacka2', 'Skrývačka 2'))
+        self.s3('resources/w4/skryvacka3.png').save(
+            fnprovider.get_filename('.png', 'skryvacka3', 'Skrývačka 3'))
+        return fnprovider.format_files()
+
+    def s1(self, fn):
+        source: Image.Image = Image.open(fn)
+        image = Image.new('1', source.size)
+        for x in range(source.width):
+            for y in range(source.height):
+                image.putpixel((x, y), 1 if source.getpixel((x, y))[2] != 0 else 0)
+        return image
+
+    def s2(self, fn, maxdelta=15):
+        source: Image.Image = Image.open(fn)
+        image = Image.new('1', source.size)
+        for x in range(source.width):
+            for y in range(source.height):
+                this = np.array(source.getpixel((x, y)))
+                delta = 0
+                for dx in (1, 0):
+                    for dy in (1, 0):
+                        if x + dx in range(image.width) and y + dy in range(image.height):
+                            delta += np.sum(np.abs(np.array(source.getpixel((x + dx, y + dy))) - this))
+                image.putpixel((x, y), 1 if delta < maxdelta else 0)
+        return image
+
+    def s3(self, fn):
+        source: Image.Image = Image.open(fn)
+        source = source.convert('1')
+        image = Image.new('1', source.size)
+        for x in range(source.width):
+            for y in range(source.height):
+                image.putpixel((x, y), ((x+y)%2) ^ source.getpixel((x,y)))
+        return image
 
 
-SOLUTIONS: List[Base] = [PartA(), PartB(), PartC()]
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC(), PartD()]
