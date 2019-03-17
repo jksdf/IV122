@@ -313,14 +313,14 @@ Pre zjednodušenie používania som pridal aj metódy `line` pre vykreslenie či
 podľa absolútne zadaných súradníc a `resetpos`, ktorá presunie korytnačku
 na danú pozíciu (užitočné na vykreslenie viac obrazcov do 1 súboru).
 
-![example](results/w3_A__polygon_1.svg)
+![example](results/w3_A__shapes_1.svg)
 
 ### B) Vykreslování relativně vs. absolutně
 
 Ako najvhodnejšie spôsoby vykreslovania som zvolil korytnačku vo všetkých obrazcoch
 s výnimkou obrazca C (mriežka), v ktorom som zvolil absolútne súradnice.
 
-![example](results/w3_B__shapes_1.svg)
+![example](results/w3_B__polygon_1.svg)
 
 ### C) Želví grafika a fraktály
 
