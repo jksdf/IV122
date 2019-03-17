@@ -377,4 +377,36 @@ rules = {'F': 'FF+F++F+F'}
 ## Týždeň 4 - Geometrie, bitmapov´a grafika
 [zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-bitmap.pdf)
 
+### A) Základní útvary
 
+Tieto tvary sú jednoduché netreba ku nim bližší popis.
+
+![circle](results/w4_A__circle_1.png)
+![empty_circle](results/w4_A__empty_circle_1.png)
+![gonoimetric circle](results/w4_A__gonio_circle_1.png)
+![Spiral](results/w4_A__spiral_1.png)
+![Triangle](results/w4_A__triangle_1.png)
+![Elipsis](results/w4_A__elipsis_1.png)
+
+### B) Mnohoúhelník
+
+Mnohouholník som vykreslil tak, že som najskôr nakreslil jeho obrys a potom som ho vyplnil.
+Na vyplnenie som pomocou vektorového súčinu zistil, ktorý smer je vnútry mnohouholníku
+a tým smerom som sa posúval, kým som nenašiel prázdny pixel. 
+
+![polygon](results/w4_B__polygon_1.png)
+
+### C) Efekty
+
+Tieto efekty som generoval pomocou pomocnej funkcie, ktorá umožňuje aplikovanie 
+funkcie na pixely zvolené podľa masky. Ako funkciu som volil negatív pixelu.
+Tretí obrázok je obrázok, kde `R = sin(x)`, `G = sin(x+y)` a `B = sin(y)` (následne
+som tieto hodnoty normalizoval na rozsah hodnôt pixelu). 
+
+![Grid: ](results/w4_C__grid_1.png)
+![Circles: ](results/w4_C__circles_1.png)
+![Color grid: ](results/w4_C__color_grid_1.png)
+
+### D) Bonus: Skrývačky
+
+_TODO_

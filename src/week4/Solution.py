@@ -1,9 +1,11 @@
-from typing import List
+from typing import List, Any
 
 from Base import Base, AbstractFilenameProvider
 from PIL import Image
 import numpy as np
 import math
+
+from src.common.python.tuples import *
 
 
 class PartA(Base):
@@ -106,6 +108,7 @@ class PartB(Base):
         return '\n'.join(f'{k}: {v}' for k, v in fns.items())
 
     def polygon(self, imgsize, points, steps=1000):
+        assert len(points) > 2
         img = Image.new("RGB", (imgsize, imgsize), (0xff, 0xff, 0xff))
         prev = points[-1]
         for point in points:
@@ -114,7 +117,97 @@ class PartB(Base):
                 t /= steps
                 img.putpixel((int(prev[0] + delta[0] * t), int(prev[1] + delta[1] * t)), (0, 0, 0))
             prev = point
+        v1 = np.array(points[0]) - np.array(points[1])
+        v2 = np.array(points[2]) - np.array(points[1])
+        sign = v1[0] * v2[1] - v1[1] * v2[0]
+        direction = v1 + v2
+        if sign > 0:
+            direction = -1 * direction
+        direction = normalize(direction) / 10
+        i = 0
+        while img.getpixel(tuple(direction * i + np.array(points[1]))) != (255, 255, 255):
+            i += 1
+        self.fill(img, direction * i + np.array(points[1]), (0, 0, 0))
+        return img
+
+    def fill(self, img, source, color):
+        q = [np.array(source, dtype=np.int32)]
+        while q:
+            coords = q.pop()
+            if img.getpixel(tuple(map(int, coords))) != color:
+                img.putpixel(tuple(coords), color)
+                for direction in map(np.array, [(1, 0), (-1, 0), (0, 1), (0, -1)]):
+                    nc = coords + direction
+                    if nc[0] < 0 or nc[1] < 0 or nc[0] >= img.width or nc[1] >= img.height:
+                        continue
+                    if nc != color:
+                        q.append(nc)
+
+
+class PartC(Base):
+    name = 'C'
+
+    def run(self, fnprovider: AbstractFilenameProvider):
+        self.grid().save(fnprovider.get_filename('.png', 'grid', 'Grid'))
+        self.circles().save(fnprovider.get_filename('.png', 'circles', 'Circles'))
+        self.color_grid().save(fnprovider.get_filename('.png', 'color_grid', 'Color grid'))
+        return fnprovider.format_files()
+
+    def grid(self, size=100, step=10) -> Image.Image:
+        img = Image.new('1', (size, size), color=1)
+        for x in range(size):
+            for y in range(size):
+                if (x // step + y // step) % 2 == 1:
+                    img.putpixel((x, y), 0)
+        mask = Image.new('1', (size, size), color=0)
+        for x in range(size):
+            for y in range(size):
+                x1 = x - size // 2
+                y1 = y - size // 2
+                if (math.sqrt(x1 ** 2 + y1 ** 2) // 22) % 2 == 1:
+                    mask.putpixel((x, y), 1)
+        self.apply_img(img, mask, lambda c: (c + 1) % 2)
+        return img
+
+    def apply_img(self, img: Image.Image, mask: Image.Image, fun: Callable[[Any], Any]):
+        assert mask.width == img.width
+        assert mask.height == img.height
+        assert mask.mode == '1'
+        for x in range(img.width):
+            for y in range(img.height):
+                if mask.getpixel((x, y)) == 1:
+                    img.putpixel((x, y), fun(img.getpixel((x, y))))
+
+    def circles(self, size=100, step=2):
+        img = Image.new('L', (size, size), color=255)
+        for x in range(size):
+            for y in range(size):
+                x1, y1 = x - size // 2, y - size // 2
+                val = (math.sin(math.sqrt(x1 ** 2 + y1 ** 2) / step) + 1) / 2 * 256
+                img.putpixel((x, y), int(val))
+        mask = Image.new('1', (size, size), color=0)
+        for x in range(size // 4, 3 * size // 4):
+            for y in range(size // 4, 3 * size // 4):
+                mask.putpixel((x, y), 1)
+        self.apply_img(img, mask, lambda c: (255 - c) % 256)
+        return img
+
+    def color_grid(self, size=100):
+        img = Image.new('RGB', (size, size), color=(0, 0, 0))
+        for x in range(size):
+            for y in range(size):
+                r = (math.cos(x) + 1) / 2 * 256
+                g = (math.cos(x + y) + 1) / 2 * 256
+                b = (math.cos(y) + 1) / 2 * 256
+                img.putpixel((x, y), tuple(map(int, (r, g, b))))
         return img
 
 
-SOLUTIONS: List[Base] = [PartA(), PartB()]
+def normalize(v: np.array) -> np.array:
+    norm = np.linalg.norm(v, ord=1)
+    if norm == 0:
+        norm = np.finfo(v.dtype).eps
+    return v / norm
+
+
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC()]
