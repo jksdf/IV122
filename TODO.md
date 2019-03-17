@@ -1,18 +1,15 @@
 * [ ] Silne a slable stranky
 * [x] Portfolio 1
-  * [x] PartA
-  * [x] PartB
-  * [x] PartC
-  * [x] PartD
   * [x] Pridaj rozmery obrazkov (datasetov)
 * [ ] Portfolio 2
-  * [ ] PartA
-  * [x] PartB
-  * [ ] PartC
-  * [ ] PartD
-  * [ ] Napis portfolio
+  * [ ] viac ukážok kódu
 * [ ] Portfolio 3
+  * [ ] Viac ukážok kódu
+  * [ ] Fraktály vedľa seba 
+  * [ ] Pentagram absolútnimi hodnotami
 * [ ] Portfolio 4
+  * [ ] Viac ukážok kódu
+  * [ ] Skrývačky
 * [ ] Portfolio 5
 * [ ] Portfolio 6
 * [ ] Portfolio 7
