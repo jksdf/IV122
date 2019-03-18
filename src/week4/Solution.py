@@ -118,9 +118,13 @@ class PartB(Base):
                 t /= steps
                 img.putpixel((int(prev[0] + delta[0] * t), int(prev[1] + delta[1] * t)), (0, 0, 0))
             prev = point
-        v1 = np.array(points[0]) - np.array(points[1])
-        v2 = np.array(points[2]) - np.array(points[1])
-        sign = v1[0] * v2[1] - v1[1] * v2[0]
+        for i in range(len(points) - 2):
+            v1 = np.array(points[i]) - np.array(points[i + 1])
+            v2 = np.array(points[i + 2]) - np.array(points[i + 1])
+            sign = v1[0] * v2[1] - v1[1] * v2[0]
+            if sign != 0:
+                break
+        assert sign != 0
         direction = v1 + v2
         if sign > 0:
             direction = -1 * direction
@@ -244,7 +248,7 @@ class PartD(Base):
         image = Image.new('1', source.size)
         for x in range(source.width):
             for y in range(source.height):
-                image.putpixel((x, y), ((x+y)%2) ^ source.getpixel((x,y)))
+                image.putpixel((x, y), ((x + y) % 2) ^ source.getpixel((x, y)))
         return image
 
 
