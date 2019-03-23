@@ -54,12 +54,12 @@ class PartC(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         self.eval(fnprovider, gen_points_normal(5000, (50, 200)), 'normal')
-        self.eval(fnprovider, gen_points_grid(10, 5, 40, fuzz=10, remove=.2), 'sparse')
+        self.eval(fnprovider, gen_points_grid(10, 15, 40, fuzz=10, remove=.2), 'sparse')
 
         return fnprovider.format_files()
 
     def eval(self, fnprovider, points, name):
-        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'jarvis_{name}', f'Jarvis on {name}'), size=(420, 420))
+        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'jarvis_{name}', f'Jarvis on {name}'), size=(430, 430))
         for point in points:
             d.add(svgwrite.shapes.Circle(center=point, r=2, stroke='blue', fill='lightblue'))
         hull = jarvis(points)
@@ -68,7 +68,7 @@ class PartC(Base):
             d.add(svgwrite.shapes.Line(v0, v1, stroke='black'))
         d.save()
 
-        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'graham_{name}', f'Graham on {name}'), size=(420, 420))
+        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'graham_{name}', f'Graham on {name}'), size=(430, 430))
         for point in points:
             d.add(svgwrite.shapes.Circle(center=point, r=2, stroke='blue', fill='lightblue'))
         hull = graham(points)

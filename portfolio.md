@@ -531,6 +531,5 @@ for point in points_by_angle[1:]:
 
 Ukážky konvexných obalov:
 
-![](results/w5_C__jarvis_normal_1.svg)
-
+![](results/w5_C__jarvis_normal_1.svg) 
 ![](results/w5_C__jarvis_sparse_1.svg)
