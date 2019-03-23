@@ -494,14 +494,17 @@ implementácia je veľmi neefektívna a veľa výpočtov v nej by sa dalo optima
 jednoduchosti a čitateľnosti kódu som ho nezlepšoval.
 
 Body s normálnym rozdelením (Greedy a Delaunay):
+
 ![](results/w5_B__greedy_normal_1.svg)
 ![](results/w5_B__delaunay_normal_1.svg)
 
 Body na mriežke (Greedy a Delaunay):
+
 ![](results/w5_B__greedy_grid_1.svg)
 ![](results/w5_B__delaunay_grid_1.svg)
 
 Body na mriežke s odstánenými vrcholmi (Greedy a Delaunay):
+
 ![](results/w5_B__greedy_sparse_1.svg)
 ![](results/w5_B__delaunay_sparse_1.svg)
 

@@ -25,8 +25,8 @@ class PartA(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         random.seed(433308)
-        lines = gen_line_segments(500, 30, (0, 400))
-        d = svgwrite.Drawing(fnprovider.get_filename('.svg', 'test', 'Test'))
+        lines = gen_line_segments(500, 30, (5, 405))
+        d = svgwrite.Drawing(fnprovider.get_filename('.svg', 'test', 'Test'), size=(410, 410))
         for start, end in lines:
             d.add(svgwrite.shapes.Line(start, end, stroke='black'))
         for intersection in intersections(lines):

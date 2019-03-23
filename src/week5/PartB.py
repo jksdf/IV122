@@ -75,26 +75,26 @@ class PartB(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         random.seed(433308)
-        self.eval(fnprovider, gen_points_normal(50, (50, 400)), 'normal')
+        self.eval(fnprovider, gen_points_normal(50, (5, 405)), 'normal')
 
         random.seed(433308 * 2)
-        self.eval(fnprovider, gen_points_grid(10, 50, 40, fuzz=5), 'grid')
+        self.eval(fnprovider, gen_points_grid(10, 5, 40, fuzz=5), 'grid')
 
         random.seed(433308 * 2)
-        self.eval(fnprovider, gen_points_grid(10, 50, 40, fuzz=5, remove=0.2), 'sparse')
+        self.eval(fnprovider, gen_points_grid(10, 5, 40, fuzz=5, remove=0.2), 'sparse')
 
         return fnprovider.format_files()
 
     def eval(self, fnprovider, points, name):
         lines = greedy(points)
-        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'greedy_{name}', f'Greedy on {name}'))
+        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'greedy_{name}', f'Greedy on {name}'), size=(415, 415))
         for start, end in lines:
             d.add(svgwrite.shapes.Line(start, end, stroke='black'))
         for point in points:
             d.add(svgwrite.shapes.Circle(center=point, r=2, stroke='blue', fill='lightblue'))
         d.save()
         lines = delaunay(points)
-        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'delaunay_{name}', f'Delaunay on {name}'))
+        d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'delaunay_{name}', f'Delaunay on {name}'), size=(415, 415))
         for start, end in lines:
             d.add(svgwrite.shapes.Line(start, end, stroke='black'))
         for point in points:
