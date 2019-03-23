@@ -21,18 +21,24 @@ def run_task(week, task, fnprovider):
 
 def run(args):
     solutions = {1: src.week1.Solution.SOLUTIONS, 2: src.week2.Solution.SOLUTIONS, 3: src.week3.Solution.SOLUTIONS, 4: src.week4.Solution.SOLUTIONS, 5: src.week5.Solution.SOLUTIONS}
+    for sols in solutions.values():
+        for sol in sols:
+            assert sol.name is not None
     tasks = []
-    for week in (solutions if 'all' in args.weeks else args.weeks):
-        for task in solutions[week]:
-            tasks.append((week, task))
-    for week, task in args.tasks:
-        found = False
-        for otask in solutions[week]:
-            if otask.name == task:
-                tasks.append((week, otask))
-                found = True
-                break
-        assert found
+    all_tasks = [i for i in args.tasks if i[0] == 'all']
+    if all_tasks:
+        for week in solutions:
+            for task in solutions[week]:
+                tasks.append((week, task))
+    else:
+        for wt in args.tasks:
+            if wt[1] == '*':
+                for task in solutions[wt[0]]:
+                    tasks.append((wt[0], task))
+            else:
+                candidates = [i for i in solutions[wt[0]] if i.name == wt[1]]
+                assert len(candidates) == 1
+                tasks.append((wt[0], candidates[0]))
     fnprovider = src.Base.TmpFilenameProvider if args.folder is None else (
         lambda folder: (lambda meta: src.Base.RealFilenameProvider(folder, meta)))(args.folder)
     for week, task in tasks:
@@ -49,17 +55,19 @@ def week_parse(s):
 
 
 def task_parse(s):
-    if '/' not in s:
-        raise ValueError
-    w, t = s.split('/', 1)
-    w = int(w)
-    return w, t
+    if s == 'all':
+        return s,
+    res = s.split('/', 1)
+    res[0] = int(res[0])
+    if len(res) == 1:
+        res = res[0], '*'
+    return res
 
 
 def main(args):
     parser = argparse.ArgumentParser(description='Run the tasks for IV122.')
-    parser.add_argument('--weeks', dest='weeks', nargs='*', metavar='W', type=week_parse,
-                        help='The weeks to evaluate or "all"', default=[])
+    # parser.add_argument('--weeks', dest='weeks', nargs='*', metavar='W', type=week_parse,
+    #                     help='The weeks to evaluate or "all"', default=[])
     parser.add_argument('--tasks', dest='tasks', nargs='*', metavar='T', type=task_parse, help='The tasks to evaluate.',
                         default=[])
     parser.add_argument('--folder', dest='folder', metavar='folder',
