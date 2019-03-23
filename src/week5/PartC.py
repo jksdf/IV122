@@ -26,23 +26,22 @@ def jarvis(points):
                 minangle = min(minangle, (angle, v))
         assert minangle[1] is not None
         hull.append(minangle[1])
-    return list(map(np.ndarray.tolist, hull))
+    return list(map(np.ndarray.tolist, hull[1:]))
 
 
 def graham(points):
     points = list(map(np.array, points))
     leftmost = points[0]
-    for p in points:
+    leftmost_idx = 0
+    for idx, p in enumerate(points):
         if p[0] < leftmost[0]:
             leftmost = p
+            leftmost_idx = idx
     left_dir = np.array([-1, 0])
-    points_by_angle = []
-    for point in points:
-        if not np.array_equal(point, leftmost):
-            points_by_angle.append((get_angle(left_dir, point - leftmost), point))
-    points_by_angle.sort(key=lambda x: x[0])
-    hull = [leftmost, points_by_angle[0][1]]
-    for _, point in points_by_angle[1:]:
+    points_by_angle = points[0:leftmost_idx] + points[leftmost_idx + 1:]
+    points_by_angle.sort(key=lambda p: get_angle(left_dir, p - leftmost))
+    hull = [leftmost, points_by_angle[0]]
+    for point in points_by_angle[1:]:
         hull.append(point)
         while len(hull) != 3 and get_direction(hull[-3] - hull[-2], hull[-1] - hull[-2]) == 'R':
             hull[-2] = hull[-1]

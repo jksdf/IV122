@@ -86,7 +86,6 @@ class PartB(Base):
         return fnprovider.format_files()
 
     def eval(self, fnprovider, points, name):
-        random.seed(433308)
         lines = greedy(points)
         d = svgwrite.Drawing(fnprovider.get_filename('.svg', f'greedy_{name}', f'Greedy on {name}'))
         for start, end in lines:
