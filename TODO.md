@@ -12,6 +12,7 @@
   * [x] Skrývačky
   * [ ] Vlastná skrývačka
 * [ ] Portfolio 5
+  * [ ] Delaunay ma bug - vytvara aj nie trojuholniky
 * [ ] Portfolio 6
 * [ ] Portfolio 7
 * [ ] Portfolio 8
