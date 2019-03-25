@@ -13,7 +13,7 @@ from common.math.Fibonacci import Fibonacci
 from common.math.factorization import *
 from common.math.ulam import create_ulam
 from common.python.tuples import *
-from src.Base import Base
+from Base import Base
 
 
 class PartA(Base):

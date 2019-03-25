@@ -6,7 +6,7 @@ import svgwrite
 import svgwrite.shapes
 
 from common.math.geometry import deg2rad
-from src.common.python.tuples import add_tuple
+from common.python.tuples import add_tuple
 
 
 class PenStates(Enum):

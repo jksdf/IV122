@@ -2,12 +2,13 @@ import argparse
 import sys
 import traceback
 
-import src.Base
-import src.week1.Solution
-import src.week2.Solution
-import src.week3.Solution
-import src.week4.Solution
-import src.week5.Solution
+import Base
+import week1.Solution
+import week2.Solution
+import week3.Solution
+import week4.Solution
+import week5.Solution
+import week6.Solution
 
 
 def run_task(week, task, fnprovider):
@@ -20,7 +21,8 @@ def run_task(week, task, fnprovider):
 
 
 def run(args):
-    solutions = {1: src.week1.Solution.SOLUTIONS, 2: src.week2.Solution.SOLUTIONS, 3: src.week3.Solution.SOLUTIONS, 4: src.week4.Solution.SOLUTIONS, 5: src.week5.Solution.SOLUTIONS}
+    solutions = {1: week1.Solution.SOLUTIONS, 2: week2.Solution.SOLUTIONS, 3: week3.Solution.SOLUTIONS,
+                 4: week4.Solution.SOLUTIONS, 5: week5.Solution.SOLUTIONS, 6: week6.Solution.SOLUTIONS}
     for sols in solutions.values():
         for sol in sols:
             assert sol.name is not None
@@ -39,8 +41,8 @@ def run(args):
                 candidates = [i for i in solutions[wt[0]] if i.name == wt[1]]
                 assert len(candidates) == 1
                 tasks.append((wt[0], candidates[0]))
-    fnprovider = src.Base.TmpFilenameProvider if args.folder is None else (
-        lambda folder: (lambda meta: src.Base.RealFilenameProvider(folder, meta)))(args.folder)
+    fnprovider = Base.TmpFilenameProvider if args.folder is None else (
+        lambda folder: (lambda meta: Base.RealFilenameProvider(folder, meta)))(args.folder)
     for week, task in tasks:
         run_task(week, task, fnprovider)
 

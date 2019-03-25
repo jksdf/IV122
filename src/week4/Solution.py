@@ -6,7 +6,7 @@ import numpy as np
 import math
 
 from common.math.geometry import normalize
-from src.common.python.tuples import *
+from common.python.tuples import *
 
 
 class PartA(Base):

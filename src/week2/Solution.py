@@ -11,7 +11,7 @@ import common.math.combinatorics as combinatorics
 from common.math import pi, arithmetics
 from common.python import sampling
 from common.python.tuples import mult_tuple
-from src.Base import Base, AbstractFilenameProvider
+from Base import Base, AbstractFilenameProvider
 
 
 class PartA(Base):
