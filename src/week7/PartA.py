@@ -49,14 +49,15 @@ def mandelbrot(n: int, res: int, coloring):
                 elif coloring == 'avgdist':
                     is_mandelbrot = abs(data[y][x]) <= 2
                     color = [255, 255, 255]
-                    try:
-                        if is_mandelbrot:
-                            c = sigmoid(abs(distances[y][x]))
-                        else:
+                    if is_mandelbrot:
+                        c = distances[y][x] / 2
+                        print(c)
+                    else:
+                        try:
                             c = sigmoid(math.log(abs(distances[y][x])) / 250)
-                        c = int(255 * c)
-                    except ValueError:
-                        c = 255
+                        except ValueError:
+                            c = 1
+                    c = int(255 * c)
                     color[0 if is_mandelbrot else 1] = c
                     img.putpixel((x, y), tuple(color))
                 else:
