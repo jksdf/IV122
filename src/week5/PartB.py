@@ -2,7 +2,10 @@ import random
 from numbers import Real
 from typing import List, Tuple, Any, Sequence, Optional
 
-import networkx as nx
+try:
+    import networkx as nx
+except ModuleNotFoundError:
+    nx = None
 import numpy as np
 import svgwrite
 import svgwrite.shapes
