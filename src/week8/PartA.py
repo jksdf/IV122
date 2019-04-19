@@ -27,6 +27,12 @@ def shear(k: float) -> np.ndarray:
                      [0, 0, 1]])
 
 
+def mat(a=0., b=0., c=0., d=0., e=0., f=0.) -> np.ndarray:
+    return np.array([[a, c, e],
+                     [b, d, f],
+                     [0, 0, 1]])
+
+
 def scale(a: float, b: float) -> np.ndarray:
     return np.array([[a, 0, 0],
                      [0, b, 0],
@@ -34,8 +40,13 @@ def scale(a: float, b: float) -> np.ndarray:
 
 
 def square(size: float) -> List[Tuple[np.ndarray, np.ndarray]]:
-    points = [np.transpose(np.array(p)) for p in [(0, 0, 1), (0, size, 1), (size, size, 1), (size, 0, 1)]]
+    points = [np.transpose(np.array(p)) for p in
+              [(-size, -size, 1), (-size, size, 1), (size, size, 1), (size, -size, 1)]]
     return [(points[idx], points[idx + 1]) for idx in range(-1, len(points) - 1)]
+
+
+def line(size: float) -> List[Tuple[np.ndarray, np.ndarray]]:
+    return [(np.transpose(np.array((0, 0, 1))), np.transpose(np.array((size, 0, 1))))]
 
 
 def vec2tup(vec: np.ndarray) -> Tuple[float, float]:
@@ -44,10 +55,10 @@ def vec2tup(vec: np.ndarray) -> Tuple[float, float]:
 
 def write(img: svgwrite.Drawing, lines: Iterable[Tuple[np.ndarray, np.ndarray]]) -> None:
     for a, b in lines:
-        img.add(svgwrite.shapes.Line(vec2tup(a), vec2tup(b), stroke='black'))
+        img.add(svgwrite.shapes.Line(vec2tup(a), vec2tup(b), stroke='black', stroke_width='0.1'))
 
 
-def apply(mat: np.ndarray, lines: List[Tuple[np.ndarray, np.ndarray]]) -> List[Tuple[np.ndarray, np.ndarray]]:
+def apply(mat: np.ndarray, lines: Iterable[Tuple[np.ndarray, np.ndarray]]) -> List[Tuple[np.ndarray, np.ndarray]]:
     return [(np.dot(mat, a), np.dot(mat, b)) for a, b in lines]
 
 
@@ -61,29 +72,30 @@ def mult(*mats: np.ndarray) -> np.ndarray:
     return val
 
 
-def demo(fn: str, size: Tuple[int, int], init: np.ndarray, stepcount: int,
-         steps: Iterable[np.ndarray]) -> svgwrite.Drawing:
-    img = svgwrite.Drawing(fn, size)
-    sq = square(80)
-    mat = init
+def demo(fn: str, viewbox: Tuple[float, float, float, float], stepcount: int,
+         steps: Iterable[np.ndarray], init=None) -> svgwrite.Drawing:
+    if init is None:
+        init = square(100)
+    img = svgwrite.Drawing(fn, viewBox=','.join(map(str, viewbox)))
+    mat = ONE
     step = mult(*steps)
     for _ in range(stepcount):
-        write(img, apply(mat, sq))
+        write(img, apply(mat, init))
         mat = mult(mat, step)
     return img
 
 
 def example1(fn: str) -> svgwrite.Drawing:
-    return demo(fn, (400, 400), translation(300, 20), 10, (rotation(10), scale(1.1, 1.1), translation(5, 10)))
+    return demo(fn, (-400, -150, 600, 1000), 10, (rotation(10), scale(1.1, 1.1), translation(20, 40)))
 
 
 def example2(fn: str) -> svgwrite.Drawing:
-    return demo(fn, (400, 400), translation(80, 80), 15, (rotation(10), scale(1.1, 0.8)))
+    return demo(fn, (-200, -200, 400, 400), 15, (rotation(10), scale(1.1, 0.8)))
 
 
 def example3(fn: str) -> svgwrite.Drawing:
-    return demo(fn, (1000, 1000), translation(80,80), 25,
-                ( rotation(30) , scale(0.9, 0.9), translation(10, 10)))
+    return demo(fn, (-200, -150, 350, 450), 25,
+                (rotation(20), scale(0.9, 0.9), translation(40, 40)))
 
 
 class PartA(Base):
@@ -93,5 +105,4 @@ class PartA(Base):
         example1(fnprovider.get_filename('.svg', 'example1', 'Example1')).save()
         example2(fnprovider.get_filename('.svg', 'example2', 'Example2')).save()
         example3(fnprovider.get_filename('.svg', 'example3', 'Example3')).save()
-        demo(fnprovider.get_filename('.svg', 'test', 'Test'), (1000,1000), ONE, 5, (translation(10,10), rotation(20))).save()
         return fnprovider.format_files()

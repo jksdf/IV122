@@ -23,11 +23,11 @@ class Turtle:
         self.basepos = basepos
         self.resetpos()
 
-    def forward(self, dist, usepen: Optional[bool] = None, color='black'):
+    def forward(self, dist, usepen: Optional[bool] = None, color='black', thickness=None):
         radang = deg2rad(self.angle)
         nextpos = add_tuple(self.position, (math.cos(radang) * dist, math.sin(radang) * dist))
         if (usepen is None and self.pen == PenStates.DOWN) or (usepen is not None and usepen):
-            self.line(self.position, nextpos, color)
+            self.line(self.position, nextpos, color, thickness)
         self.position = nextpos
 
     def right(self, angle):
@@ -45,8 +45,8 @@ class Turtle:
     def penup(self):
         self.pen = PenStates.UP
 
-    def line(self, start, end, color='black'):
-        self.drawing.add(svgwrite.shapes.Line(start=start, end=end, stroke=color))
+    def line(self, start, end, color='black', thickness=None):
+        self.drawing.add(svgwrite.shapes.Line(start=start, end=end, stroke=color, stroke_width=thickness if thickness else 1))
 
     def resetpos(self, position=(0, 0), angle=0):
         self.position = position[0] + self.basepos[0], position[1] + self.basepos[1]

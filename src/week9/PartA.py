@@ -1,35 +1,56 @@
-from collections import Counter
-from typing import Dict, List
+import random
+
 import matplotlib.pyplot as plt
 
 from Base import Base, AbstractFilenameProvider
 
 
+class MontyHall:
+    def __init__(self):
+        self._state = [False] * 3
+        self._state[random.randint(0, 2)] = True
+        self.selected = None
+        self.shown = None
+
+    def select(self, pos):
+        assert pos in range(3)
+        self.selected = pos
+        possible = [idx for idx, st in enumerate(self._state) if idx != pos and not st]
+        self.shown = random.choice(possible)
+
+    def swap(self, doSwap):
+        assert self.selected is not None and self.shown is not None
+        if doSwap:
+            x = set(range(3))
+            x.remove(self.selected)
+            x.remove(self.shown)
+            return self._state[list(x)[0]]
+        else:
+            return self._state[self.selected]
+
+    def won(self):
+        return self._state[self.selected]
+
+
+def play(swapper, iter=1000000):
+    wins = 0
+    for _ in range(iter):
+        monty_hall = MontyHall()
+        monty_hall.select(random.randint(0, 2))
+        if monty_hall.swap(swapper()):
+            wins += 1
+    return wins / iter
+
 
 class PartA(Base):
     name = 'A'
 
-    def analyze(self, ln, fn) -> Dict[int, int]:
-        with open(fn) as f:
-            vals = tuple(map(int, filter(None, f.read().split())))
-            c = Counter()
-            for idx in range(len(vals) - ln):
-                c[vals[idx:idx + ln]] += 1
-            return c
-
-    def render(self, analysis: List[Dict[int, int]]):
-        f, axarr = plt.subplots(len(analysis), sharex=True, sharey=True)
-        f.suptitle('Distributions')
-        for idx in range(len(analysis)):
-            x,y = zip(*analysis[idx].items())
-            x = list(map(str, x))
-            axarr[idx].bar(x,y, 1)
-        f.subplots_adjust(hspace=0)
-        for ax in axarr:
-            ax.label_outer()
-        f.show()
-        f.
-
     def run(self, fnprovider: AbstractFilenameProvider):
-        self.render([self.analyze(1, '../resources/w9/' + f) for f in "random1.txt random2.txt random3.txt random4.txt random5.txt".split(' ')])
-        pass
+        plt.clf()
+        fig, ax = plt.subplots()
+        fig.suptitle("Monty hall distributions by strategy")
+        ax.set_ylabel('Win rate')
+        ax.set_xlabel('Strategy')
+        ax.bar(list(range(3)), [play(lambda : True), play(lambda :False), play(lambda :random.choice([True, False]))], tick_label=['Always swap', 'Never swap', 'Random'])
+        fig.savefig(fnprovider.get_filename('.png', 'monty_hall_distribution', 'Monty hall distributions by strategy'))
+        return fnprovider.format_files()

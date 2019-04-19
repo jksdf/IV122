@@ -30,27 +30,6 @@ def _stack_pop(turtle, posang):
     turtle.position, turtle.angle = posang
 
 
-def weed(fn):
-    angle = 22.5
-    length = 10
-    turtle = Turtle(fn, (150,650))
-    turtle.left(90)
-    stack = []
-    lsystem = LSystem({'F': lambda: turtle.forward(length),
-                       'X': lambda: None,
-                       'Y': lambda: None,
-                       '+': lambda: turtle.right(angle),
-                       '-': lambda: turtle.left(angle),
-                       '[': lambda: stack.append((turtle.position, turtle.angle)),
-                       ']': lambda: _stack_pop(turtle, stack.pop())},
-                      {'F': 'FF-[XY]+[XY]',
-                       'X': '+FY',
-                       'Y': '-FX'},
-                      'F')
-    lsystem.run(5)
-    turtle.save(fn, frame=(150,30))
-
-
 def square_sierpinsky(fn):
     angle = 90
     length = 3

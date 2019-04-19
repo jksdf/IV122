@@ -17,7 +17,7 @@ def _rotate(vector, degrees):
 
 def chaos_game(n, step, k, r, seed=None, size=400):
     random.seed(seed)
-    imgs = [Image.new(mode="RGB", size=(size, size), color=(255,255,255))]
+    imgs = [Image.new(mode="L", size=(size, size), color=255)]
     abc = [np.array([size / 2, size / 2]) + _rotate((0, -size / 2 * 0.9), i * 360 / n) for i in range(n)]
     x = np.array([size / 2, size / 2])
     for _ in range(k):
@@ -25,7 +25,7 @@ def chaos_game(n, step, k, r, seed=None, size=400):
         imgs.append(img)
         for _ in range(step):
             x = x * (1-r) + random.choice(abc) * r
-            img.putpixel((int(x[0]), int(x[1])), (0,0,0))
+            img.putpixel((int(x[0]), int(x[1])), 0)
     return imgs
 
 
@@ -46,5 +46,3 @@ class PartA(Base):
                  fnprovider.get_filename('.gif', 'chaos_pentagon_third', 'Chaos pentagon (n=3, r=1/3)'),
                  duration=100)
         return fnprovider.format_files()
-
-    pass

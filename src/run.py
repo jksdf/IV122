@@ -1,5 +1,6 @@
 import argparse
 import sys
+import time
 import traceback
 
 import Base
@@ -15,12 +16,13 @@ import week9.Solution
 
 
 def run_task(week, task, fnprovider):
+    t0 = time.time()
     try:
         res = task.run(fnprovider('{}_{}_'.format(week, task.name)))
     except Exception as e:
         res = 'The task has raised a {} exception'.format(e)
         traceback.print_exc()
-    print('\n{}\n\nWeek {} Part {}:\n{}'.format('#' * 80, week, task.name, res))
+    print('\n{}\n\nWeek {} Part {} ({:.2f}s):\n{}'.format('#' * 80, week, task.name, time.time() - t0, res))
 
 
 def run(args):

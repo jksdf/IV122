@@ -374,7 +374,7 @@ rules = {'F': 'FF+F++F+F'}
 ```
 ![crystal](results/w3_D__crystal_1.svg)
 
-## Týždeň 4 - Geometrie, bitmapov´a grafika
+## Týždeň 4 - Geometrie, bitmapová grafika
 [zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-bitmap.pdf)
 
 ### A) Základní útvary
@@ -436,7 +436,7 @@ image.putpixel((x, y), ((x+y)%2) ^ source.getpixel((x,y)))
 ``` 
 ![S3](results/w4_D__skryvacka3_1.png)
 
-## Geometrické algoritmy
+## Týždeň 5 - Geometrické algoritmy
 [zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-geom-alg.pdf)
 
 ### A) Průsečníky úseček
@@ -533,3 +533,99 @@ Ukážky konvexných obalov:
 
 ![](results/w5_C__jarvis_normal_1.svg) 
 ![](results/w5_C__jarvis_sparse_1.svg)
+
+## Týždeň 6 - Fraktály, chaos
+[zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-fraktaly-chaos.pdf)
+
+### A) Chaos game
+
+TODO
+
+### B) Feigenbaumov diagram
+
+TODO
+
+### C) L-systémy
+
+TODO
+
+## Týždeň 7 - Fraktály, komplexné čísla
+[zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-fraktaly-complex.pdf)
+
+TODO
+
+## Týždeň 8 - Transformácie v rovine
+[zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-lingebra.pdf)
+
+### A) Afinní transformace
+
+TODO
+
+### B) Multiple Reduction Copy Machine (MRCM)
+
+TODO
+
+## Týždeň 9 - Pravdepodobnosť
+[zadanie](https://www.fi.muni.cz/~xpelanek/IV122/zadani/zadani-pravdepodobnost.pdf)
+
+### A) Monty Hall Problem
+
+Pre tento problém som vykonal simulácie pre 3 rôzne stratégie (1'000'000 vzoriek pre každú):
+* Vždy mení;
+* Vždy ostáva;
+* Rozhoduje sa náhodne.
+
+Podľa znalosti tejto hry by mali byť očakávané pravdepodobnosti výhry
+pri zmene 67%, pri ponechaní voľby 33% a pri náhodnom výbere 50% (![](http://www.sciweavers.org/tex2img.php?eq=0.5%20%5Ctimes%200.67%20%2B%200.5%20%5Ctimes%200.33%20%3D%200.5&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)).
+
+Výsledok simulácie:
+
+![](results/w9_A__monty_hall_distribution_1.png)
+
+### B) Nenáhodná čísla
+
+* `random1.txt` -- Pravdepodobnosť 2 krát po sebe toho istého čísla je znížená
+* `random2.txt` -- Počet výskytov čísla 2 je znížený a počeť 5 je zvýšený
+* `random3.txt` -- Táto postupnosť vyzerá náhodne, ale pri pohľade na 4-grami má trochu širšie rozloženie než `random7.txt`.
+* `random4.txt` -- Nerovnomerné rozloženie bigramov - 
+* `random5.txt` -- Postupnosť `1 6 2 5 3 4` má 112 výskytov, čo je omnoho viac než je očakávané.
+* `random6.txt` -- Iba niektoré trigramy sa vyskytujú v tejto sekvencíi
+* `random7.txt` -- Táto postupnosť vyzerá náhodne.
+
+![](results/w9_B__1-grams_1.png)
+![](results/w9_B__2-grams_1.png)
+![](results/w9_B__3-grams_1.png)
+![](results/w9_B__4-grams_1.png)
+
+### C) Centrální limitní věta
+
+__K<sub>a</sub>__ - preferuje vyššie čísla
+
+__K<sub>b</sub>__ - preferuje nižšie čísla
+
+1. Ak každý hod vykonávame kockou K<sub>a</sub>, tak je očakávaný výsledok by 
+mal zodpovedať normálnej distrubúcii pravdepodobnosti s posunutým stredom.
+1. Ak náhodne zvolíme ktorú kocku použijeme, tak pravdepodobnosť výberu bude 
+zodpovedať súčtu normálnej distribúcie pre K<sub>a</sub> a K<sub>b</sub>.
+1. Ak náhodne vykonáne všetkých _n_ hodov s 1 kockou, tak výsledok bude rovnaký, 
+ako pri variante 2.
+
+Simulácie boli vykonané na vzorkách o veľkosti 100'000.
+
+![](results/w9_C__test_20_1.png)
+
+![](results/w9_C__test_100_1.png)
+
+### D) Bayesova věta a simulace
+
+Vykonal som 100'000 simulácii pre každú hodnotu a výsledky
+sú v nasledujúcich grafoch:
+
+![](results/w9_D__samples_N5_1.png)
+![](results/w9_D__samples_N20_1.png)
+![](results/w9_D__samples_N100_1.png)
+
+Ako je možné vidieť a bolo ľahko očakávateľné, pravdepodobnosť
+falošnej kocky klesá značne rýchlo s rastúcim počtom kociek, 
+ale iba pre malé počty hodov. V závislosti od počtu hodov klesá 
+táto pravdepodobnosť exponenciálne. 

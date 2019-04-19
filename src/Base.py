@@ -15,7 +15,9 @@ class AbstractFilenameProvider:
         return fn
 
     def format_files(self, **extra):
-        return '\n'.join(f'{k}: {v}' for k, v in {**self.dict, **extra}.items())
+        f = '\n'.join('{}: file:///{}'.format(k, os.path.abspath(v).replace('\\', '/')) for k, v in self.dict.items())
+        e = '\n'.join(f'{k}: {v}' for k, v in extra.items())
+        return '\n'.join([f, e])
 
     @abc.abstractmethod
     def _get_filename(self, suffix=None, name=None):
