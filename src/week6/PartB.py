@@ -34,7 +34,10 @@ class PartB(Base):
     name = 'B'
 
     def run(self, fnprovider: AbstractFilenameProvider):
-        bifurcations((2, 4), 10000, (0, 1), 5000, .2).save(fnprovider.get_filename('.png', 'bif', 'Bifurcations'))
+        img = bifurcations((2, 4), 10000, (0, 1), 5000, .2)
+        img.save(fnprovider.get_filename('.png', 'bif', 'Bifurcations'))
+        img.thumbnail((500,500), Image.ANTIALIAS)
+        img.save(fnprovider.get_filename('.png', 'bif_small', 'Bifurcations (small)'))
         return fnprovider.format_files()
 
     pass

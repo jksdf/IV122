@@ -18,13 +18,13 @@ def _rotate(vector, degrees):
 def chaos_game(n, step, k, r, seed=None, size=400):
     random.seed(seed)
     imgs = [Image.new(mode="L", size=(size, size), color=255)]
-    abc = [np.array([size / 2, size / 2]) + _rotate((0, -size / 2 * 0.9), i * 360 / n) for i in range(n)]
+    points = [np.array([size / 2, size / 2]) + _rotate((0, -size / 2 * 0.9), i * 360 / n) for i in range(n)]
     x = np.array([size / 2, size / 2])
     for _ in range(k):
         img = imgs[-1].copy()
         imgs.append(img)
         for _ in range(step):
-            x = x * (1-r) + random.choice(abc) * r
+            x = x * (1-r) + random.choice(points) * r
             img.putpixel((int(x[0]), int(x[1])), 0)
     return imgs
 

@@ -25,7 +25,13 @@ class LSystem:
             elif i == 'f':
                 turtle.forward(step, usepen=False)
             elif i == 'F':
-                turtle.forward(step, usepen=True, thickness=1.5/(len(stack)+1)**0.5 if thickness else 1)
+                if thickness == 'constant':
+                    thicknessVal = 1
+                elif thickness == 'sq':
+                    thicknessVal = 1.5 / (len(stack) + 1) ** 0.5
+                else:
+                    raise ValueError()
+                turtle.forward(step, usepen=True, thickness=thicknessVal)
             elif i.isalpha():
                 pass
             else:
