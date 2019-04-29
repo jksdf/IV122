@@ -28,7 +28,6 @@ class PartA(Base):
         for ax in axarr:
             ax.label_outer()
         f.show()
-        f.
 
     def run(self, fnprovider: AbstractFilenameProvider):
         self.render([self.analyze(1, '../resources/w9/' + f) for f in "random1.txt random2.txt random3.txt random4.txt random5.txt".split(' ')])
