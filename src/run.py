@@ -13,6 +13,7 @@ import week6.Solution
 import week7.Solution
 import week8.Solution
 import week9.Solution
+import week12.Solution
 
 
 def run_task(week, task, fnprovider):
@@ -28,7 +29,7 @@ def run(args):
     solutions = {1: week1.Solution.SOLUTIONS, 2: week2.Solution.SOLUTIONS, 3: week3.Solution.SOLUTIONS,
                  4: week4.Solution.SOLUTIONS, 5: week5.Solution.SOLUTIONS, 6: week6.Solution.SOLUTIONS,
                  7: week7.Solution.SOLUTIONS, 8: week8.Solution.SOLUTIONS, 9: week9.Solution.SOLUTIONS,
-                 11: week11.Solution.SOLUTIONS}
+                 11: week11.Solution.SOLUTIONS, 12: week12.Solution.SOLUTIONS}
     for sols in solutions.values():
         for sol in sols:
             assert sol.name is not None
