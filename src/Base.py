@@ -12,6 +12,8 @@ class AbstractFilenameProvider:
         fn = self._get_filename(suffix, name)
         if printable is not None:
             self.dict[printable] = fn
+        if not fn.startswith('file://'):
+            fn = fn
         return fn
 
     def format_files(self, **extra):

@@ -1,6 +1,8 @@
 import argparse
 import sys
 import traceback
+import matplotlib
+matplotlib.use('agg')
 
 import Base
 import week1.Solution
