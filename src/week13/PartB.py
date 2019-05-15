@@ -1,7 +1,8 @@
 from Base import Base, AbstractFilenameProvider
 
 
-class PartA(Base):
-    name="A"
+class PartB(Base):
+    name = 'B'
+
     def run(self, fnprovider: AbstractFilenameProvider):
         pass
