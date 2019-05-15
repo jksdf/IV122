@@ -6,7 +6,7 @@
 * [x] Portfolio 4
 * [ ] Portfolio 5
   * [ ] Delaunay ma bug - vytvara aj nie trojuholniky
-* [ ] Portfolio 6
+* [x] Portfolio 6
 * [ ] Portfolio 7
 * [ ] Portfolio 8
 * [x] Portfolio 9

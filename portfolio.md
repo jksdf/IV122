@@ -479,6 +479,8 @@ Príklad nájdenia pretínajúcich sa vrcholov:
 
 ### B) Triangulace
 
+__Poznámka: Delaunay zatiaľ nefunguje a generuje mnohouholníky__
+
 Implementoval som greedy aj Delaunayov algoritmus na trianguláciu.
 
 Greedy si najskôr predpočíta vzdialenosti medzi každou dvojicou bodov a potom postupuje od najkratšej po najdlhšiu hranu
