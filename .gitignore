@@ -1,6 +1,9 @@
 # Custom
 
 .idea/
+*.exe
+*.exp
+*.lib
 
 ################################
 # Pregenerated
