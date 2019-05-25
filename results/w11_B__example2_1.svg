@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="500" version="1.1" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <text display="none" font-size="50" x="0" y="470">
+    0
+    <animate attributeName="display" begin="0s" dur="5s" keyTimes="0;0.0;0.2;1" repeatCount="indefinite" values="none;inline;none;none"/>
+  </text>
+  <text display="none" font-size="50" x="0" y="470">
+    1
+    <animate attributeName="display" begin="0s" dur="5s" keyTimes="0;0.2;0.4;1" repeatCount="indefinite" values="none;inline;none;none"/>
+  </text>
+  <text display="none" font-size="50" x="0" y="470">
+    2
+    <animate attributeName="display" begin="0s" dur="5s" keyTimes="0;0.4;0.6;1" repeatCount="indefinite" values="none;inline;none;none"/>
+  </text>
+  <text display="none" font-size="50" x="0" y="470">
+    3
+    <animate attributeName="display" begin="0s" dur="5s" keyTimes="0;0.6;0.8;1" repeatCount="indefinite" values="none;inline;none;none"/>
+  </text>
+  <text display="none" font-size="50" x="0" y="470">
+    4
+    <animate attributeName="display" begin="0s" dur="5s" keyTimes="0;0.8;1.0;1" repeatCount="indefinite" values="none;inline;none;none"/>
+  </text>
+  <circle cx="174.61643078636024" cy="219.12542847223568" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="217.85678275384006" cy="225.93805737495336" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="220.8266758830767" cy="188.46491036191253" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="122.98888254999801" cy="110.21737016029955" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="241.62849564885954" cy="259.34557572275617" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="178.72400103955002" cy="115.12830485236927" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="216.56281157718797" cy="169.83155672866783" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="173.0511668885266" cy="219.81518289122633" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="210.7596985845005" cy="242.74747645468616" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="192.4714449512335" cy="191.94544926826765" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="224.04123953431235" cy="158.98966744120588" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="247.7553506509984" cy="158.7573473424325" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="211.54058639358635" cy="227.33715978301487" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="172.5556917884001" cy="190.17129819232716" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="156.30427973672516" cy="211.29024386820518" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="198.83106690064088" cy="202.9110098899181" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="200.9793258837418" cy="198.73832016568429" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="287.93633970298595" cy="251.40212903565384" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="200.4728454798183" cy="193.41040693497817" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="215.57381585784793" cy="191.448176606395" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="223.08074472220449" cy="193.93764617305848" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="204.6560119176738" cy="158.31082296832622" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="169.57804223583085" cy="141.0920680182003" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="180.86022295971884" cy="208.66185420294664" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="237.60143474584984" cy="180.7398540576557" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="246.68893154832767" cy="183.19252382886225" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="192.9753932150744" cy="205.00040667337842" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="145.17752457448336" cy="195.09167341428417" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="220.5243059492924" cy="236.08916476024885" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="204.56726738947066" cy="234.35878164748738" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="225.52807727881745" cy="209.50825613045552" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="209.7565092313159" cy="204.02172201476554" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="187.01565464459168" cy="191.05019509381867" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="171.38467134996696" cy="76.48547518261304" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="203.81735061764522" cy="210.43870497645193" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="185.83851207828147" cy="201.65812041218206" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="177.39665070626265" cy="206.5768436069712" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="211.2152407030496" cy="198.36162036302008" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="210.13690316119664" cy="119.88853805632115" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="225.02340348907117" cy="177.38017312104768" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="173.68937640407637" cy="239.04055151977744" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="189.18263772063239" cy="178.82428717278148" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="206.6908410823655" cy="184.3863582021343" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="214.16686848368312" cy="182.78155893272378" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="170.594623512238" cy="192.64652758768364" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="198.47568061643716" cy="246.69686788930494" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="160.4376198648347" cy="193.52652359019814" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="214.51655952630577" cy="192.60132981662014" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="181.69062182477433" cy="190.7923938765532" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="204.65496856937787" cy="164.6838503422099" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="261.86883296252415" cy="148.8338162445176" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="202.53408132092233" cy="164.81720153346643" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="180.32764871354584" cy="198.74665461770843" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="197.26216128402547" cy="200.08138276160236" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="276.7769091880456" cy="156.480866192623" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="165.47758497760796" cy="153.7167243214896" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="183.10123008346352" cy="190.2919816035182" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="241.2389839978988" cy="181.7883373625302" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="321.7720377661257" cy="149.53485187072033" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="213.1280518980799" cy="200.15016275619732" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="188.5087894567343" cy="208.3380459502565" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="200.35512354466653" cy="198.67490996728154" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="199.84261278094044" cy="196.2594765958717" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="192.75827113375973" cy="189.16985009923974" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="182.7366356757906" cy="200.08017045390326" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="128.2472170746751" cy="327.8535741387981" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="195.46653872041674" cy="179.82088914875294" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="148.33393014653475" cy="139.929736873311" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="192.394383599279" cy="241.42565272201946" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="198.53824207195427" cy="187.5687885557145" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="198.5885503300998" cy="199.13071325010262" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="187.98602236706017" cy="172.87081855722332" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="218.5198468244607" cy="147.3987502217616" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="177.39729805946226" cy="188.32637986687337" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="254.96412069273438" cy="186.88843053655873" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="226.26153669952723" cy="111.6678507151623" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="204.09360980043834" cy="280.47231689882835" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="178.43975882171947" cy="234.95436280749382" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="201.11621214241464" cy="199.5572911019311" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="212.25639239397233" cy="187.85826098838734" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="188.59923017562056" cy="196.64912416944952" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="208.23334002006052" cy="189.34036933255507" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="215.49726994279158" cy="196.85153766718804" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="183.62014164755684" cy="218.61166659482268" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="202.20576301901284" cy="218.14043881921674" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="172.09037023569005" cy="187.06396739831666" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="210.28416652444548" cy="192.3040082215042" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="207.79909431708677" cy="197.04496617475579" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="232.9607960645502" cy="266.1961448693987" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="149.40577037935142" cy="184.56022137097682" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="181.58705414866517" cy="190.50394293591918" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="242.7732834759984" cy="276.51052249563685" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="187.07601029641268" cy="209.50710631309892" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="148.87993878271686" cy="223.10167227036962" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="184.82696950514742" cy="211.32957296400906" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="199.21530491343648" cy="207.8778011137161" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="207.07721807608726" cy="214.01759446849806" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="191.5038181229696" cy="222.35001659807162" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="266.2532127159116" cy="152.12586869377103" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="185.31055945575974" cy="214.38095448022634" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="266.1103258049171" cy="191.99796750631683" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="287.0440159389454" cy="196.65787582219377" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="297.1630845870305" cy="189.4935880073548" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="303.424229961145" cy="202.01265499385823" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="313.6671897699274" cy="201.66692239681942" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="298.89268758975913" cy="216.85361597953386" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="259.8598968447618" cy="189.83092183577014" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="363.4148671400907" cy="201.82952422084398" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="298.81496905041547" cy="195.68085110695196" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="292.3474344814022" cy="190.36828000528521" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="305.1176483151978" cy="206.45316810129327" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="313.64246022458724" cy="251.66268918961777" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="296.05876472602995" cy="207.01246878743518" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="308.96660966290557" cy="153.7970430101534" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="308.02087869777955" cy="222.72732758667695" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="251.4391964189996" cy="198.10317843859715" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="325.1571386303574" cy="206.0526047970839" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="350.0162784415644" cy="170.3190521750941" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="338.67378477255545" cy="187.59371164122985" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="278.05316402573834" cy="198.93829416138215" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="298.40998020986746" cy="190.01434425871986" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="293.6082318279016" cy="188.47658067475567" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="283.484078553755" cy="219.5089304460773" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="293.47316556116834" cy="180.23108763523146" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="314.230389502547" cy="265.4970442699502" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="296.97713281376895" cy="193.93446886734418" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="315.77816633369383" cy="182.90177601904972" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="311.5238612925357" cy="211.06610467599359" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="274.63611389547367" cy="200.35441374348417" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="303.5632817647388" cy="184.90021156049002" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="294.96353567219336" cy="193.39197505432216" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="350.9941236273725" cy="198.2579749460989" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="297.5663446051142" cy="124.29359721173712" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="301.1498399401691" cy="192.64153237575533" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="371.9352645962884" cy="137.70356449298995" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="368.2105085178573" cy="186.2529349125845" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="323.6985300739123" cy="192.00524270568368" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="307.11412805296806" cy="190.39232754033455" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="300.7464779859339" cy="200.94263501743416" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="399.0016043881584" cy="251.83141148151884" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="276.0878082213858" cy="111.2735063535982" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="301.1100541967744" cy="162.80693102265508" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="316.91812024417214" cy="230.27425339276783" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="266.893558242154" cy="116.51698818473945" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="267.01957048162376" cy="190.8631265886765" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="309.14310488956664" cy="181.01572717151674" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="283.30433173861076" cy="274.2942962321485" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="370.18466228764186" cy="294.7178341967658" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="285.5844779461784" cy="237.2367325789132" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="329.44502055134734" cy="187.24409016902564" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="280.72342147358194" cy="213.18174744023514" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="317.08390356332563" cy="193.2144695957456" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="291.68372763080214" cy="172.3682237656215" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="291.9772588859671" cy="200.7401729391656" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="368.436736881293" cy="199.499349130675" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="352.66369683228953" cy="180.9415180459028" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="327.6552520408183" cy="223.93757928325567" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="299.08774221888524" cy="196.62723044319216" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="322.2739851052143" cy="171.71093905804588" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="231.90874590249177" cy="172.39119465864786" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="297.40471125200816" cy="193.8964632998065" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="280.1135832454661" cy="197.94933699535912" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="279.19289000344884" cy="268.9720280289717" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="300.41631450462717" cy="139.75773491881876" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="324.0882196775743" cy="168.12376846152367" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="284.3511745059204" cy="259.9171491052246" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="306.4656161283681" cy="192.46128252727362" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="381.09389172235376" cy="151.59810284890483" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="260.49973228355657" cy="198.40283388546075" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="255.93650886716802" cy="186.99772649774647" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="354.5873905431845" cy="244.9504473303091" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="304.4800784984155" cy="147.81243322069838" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="297.3731305513155" cy="200.33459923640544" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="295.0435353642925" cy="245.32953440915736" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="301.3250407044685" cy="197.56862257418612" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="222.24928748853486" cy="244.07846349427186" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="269.223770660489" cy="159.4063044008167" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="295.0741767478266" cy="198.16214939873612" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="407.33965819939874" cy="215.1162694110977" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="298.1403034996094" cy="222.23193281377013" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="316.848845673471" cy="160.1824836652359" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="297.3111859736482" cy="232.19279545047152" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="294.7689692318482" cy="156.07035079556601" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="305.40717322012216" cy="189.67895092686783" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="335.48207701270485" cy="186.96789465117735" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="285.35662884999454" cy="246.5125639527263" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="310.72404775554696" cy="167.00725328664686" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="317.8164104576595" cy="185.63199137606898" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="293.7618526636054" cy="129.5760612003137" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="282.37387017805247" cy="166.92892419178253" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="273.8088293583668" cy="189.85651022605674" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="396.46127272171105" cy="212.01784977937137" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="299.31821984040926" cy="140.72275461848147" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="279.97162443828427" cy="178.70732836236976" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="243.65625533976367" cy="241.95650197304224" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c"/>
+  </circle>
+  <circle cx="295.6495917217675" cy="198.11937403136608" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="297.8177691926806" cy="161.98349579797465" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="325.92665741273083" cy="228.6961130322564" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="298.2330032962134" cy="151.73717586256168" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="300.33147140068144" cy="199.3123363978647" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="376.3768690219863" cy="338.18853720678266" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="399.05206109485135" cy="346.5445829647342" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="371.1198843805801" cy="342.17495152316343" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="318.0136485436426" cy="277.40093628699157" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="401.72550427865224" cy="404.97978985450607" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="383.48669822596435" cy="367.11646690478676" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="409.94650873104666" cy="387.55133077089585" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="389.6303205216244" cy="334.0049599702453" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="286.9574327694645" cy="380.58973515195936" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="393.31244966154634" cy="346.7473865517304" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="376.84021588761067" cy="341.8857127456114" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="376.61250385748355" cy="361.0336882856608" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="375.4722861159109" cy="324.9866299048587" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="443.0742310171122" cy="304.3425077568458" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="384.88285321565405" cy="303.3141530178543" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="380.22635721521516" cy="335.8655794333805" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="378.48496969840926" cy="352.3115293183554" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="372.9605083124236" cy="380.0821572368179" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="376.6310052609834" cy="350.78532074424317" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="467.0270482990192" cy="299.932552755121" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="382.04463064365166" cy="341.3547163539023" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="381.2858999133613" cy="340.00849534087456" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="336.6735437252164" cy="245.80391973649992" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="354.5669532857303" cy="356.7510858791941" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="372.65598646860815" cy="356.40954024727057" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="341.988142470273" cy="426.1727281041125" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="413.7630065311282" cy="321.006165951205" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="387.0567543471031" cy="263.9579221219225" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="374.2109644886296" cy="339.3934339427873" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="378.6495426927872" cy="355.7321146927693" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="470.49811796876526" cy="302.3317035364587" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="437.2786773041616" cy="371.51315973192715" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="380.0232204706549" cy="336.88511398769276" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="379.80076273100434" cy="348.20579851846963" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="468.60122889333667" cy="370.2481387090155" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="336.5825563834956" cy="376.91652538362615" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="439.40058980809965" cy="330.232050042569" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="284.14829806025824" cy="357.6147590034917" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="343.15075000056083" cy="439.3216739111852" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="368.6780876160956" cy="341.37366380452653" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="383.01067836755533" cy="345.28536221738557" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="416.50066994116116" cy="340.9146873381503" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="401.50091129640487" cy="351.37938142504566" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="390.74093247484456" cy="322.6738217801304" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="402.5067364359627" cy="363.1473714078153" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="260.90508115284933" cy="276.78972230023066" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#2ca02c;#ff7f0e;#ff7f0e;#ff7f0e;#ff7f0e"/>
+  </circle>
+  <circle cx="361.8143372303281" cy="298.7685815196241" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="446.4400627260401" cy="384.8130130951863" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="417.541953018759" cy="341.9865366670781" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+  <circle cx="309.2840769828062" cy="329.53692945470885" fill="black" r="3">
+    <animate attributeName="fill" attributeType="XML" begin="0s" dur="5s" keyTimes="0;0.2;0.2;0.4;0.4;0.6;0.6;0.8;0.8;1" repeatCount="indefinite" values="#2ca02c;#2ca02c;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4;#1f77b4"/>
+  </circle>
+</svg>

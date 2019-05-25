@@ -20,7 +20,7 @@ def analytical_solution(x, y):
 
 def gradient_descent(x, y, iters, init=None, lr=0.1):
     if init is None:
-        a, b = random.uniform(0, 1), random.uniform(min(x), max(x))
+        a, b = random.uniform(0, 1), 0
     else:
         a, b = init
     for _ in range(iters):

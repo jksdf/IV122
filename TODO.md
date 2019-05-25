@@ -11,7 +11,7 @@
 * [ ] Portfolio 8
 * [x] Portfolio 9
 * [ ] Portfolio 10
-* [ ] Portfolio 11
+* [x] Portfolio 11
 * [ ] Portfolio 12
 * [ ] Portfolio 13
 * [ ] Portfolio Dokoncit
