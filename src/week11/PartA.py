@@ -1,8 +1,12 @@
 import random
 
+import matplotlib.animation
 import matplotlib.pyplot as plt
 
 from Base import Base, AbstractFilenameProvider
+
+Writer = matplotlib.animation.writers['ffmpeg']
+writer = Writer(fps=15, metadata=dict(artist='Me'), bitrate=1800)
 
 
 def analytical_solution(x, y):
@@ -20,21 +24,39 @@ def gradient_descent(x, y, iters, init=None, lr=0.1):
     else:
         a, b = init
     for _ in range(iters):
-        grad_a = 2/len(x) * (-sum(xi * (yi - (a * xi + b)) for xi, yi in zip(x, y)))
-        grad_b = 2/len(x) * (-sum(yi - (a * xi + b) for xi, yi in zip(x, y)))
+        grad_a = 2 / len(x) * (-sum(xi * (yi - (a * xi + b)) for xi, yi in zip(x, y)))
+        grad_b = 2 / len(x) * (-sum(yi - (a * xi + b) for xi, yi in zip(x, y)))
         a -= lr * grad_a
         b -= lr * grad_b
     return a, b
 
 
-def lin_reg(x, y):
-    plt.clf()
+def lin_reg(x, y, iters, seed=433308, orig_line=None):
     analytical_a, analytical_b = analytical_solution(x, y)
-    grad_desc_a, grad_desc_b = gradient_descent(x, y, 50)
-    plt.scatter(x, y)
-    plt.plot([min(x), max(x)], [analytical_a * min(x) + analytical_b, analytical_a * max(x) + analytical_b], color="blue")
-    plt.plot([min(x), max(x)], [grad_desc_a * min(x) + grad_desc_b, grad_desc_a * max(x) + grad_desc_b], color="yellow")
-    return plt
+
+    plt.clf()
+    fig = plt.figure()
+    ax1 = fig.add_subplot(1, 1, 1)
+
+    def animate(i):
+        random.seed(seed)
+        grad_desc_a, grad_desc_b = gradient_descent(x, y, i)
+        ax1.clear()
+        ax1.set_title(f"Linear regression (step {i + 1}/{iters})")
+        ax1.scatter(x, y)
+        ax1.plot([min(x), max(x)], [analytical_a * min(x) + analytical_b, analytical_a * max(x) + analytical_b],
+                 color="blue")
+        ax1.plot([min(x), max(x)], [grad_desc_a * min(x) + grad_desc_b, grad_desc_a * max(x) + grad_desc_b],
+                 color="green")
+        if orig_line is not None:
+            a, b = orig_line
+            plt.plot([0, 1], [b, a + b], color="red")
+            plt.legend(["Calculated", "Grad. desc.", "Actual"])
+        else:
+            plt.legend(["Calculated", "Grad. desc."])
+
+    ani = matplotlib.animation.FuncAnimation(fig, animate, iters)
+    return ani
 
 
 def load_data(fn):
@@ -67,10 +89,12 @@ def visualize_generated(error_dist, dist, n=100, seed=433308):
     random.seed(seed)
     a, b, points = generate_with_dist(n, error_dist, dist)
     x, y = zip(*points)
-    lin_reg(x, y)
-    plt.plot([0, 1], [b, a + b], color="red")
-    plt.legend(["Calculated", "Grad. desc.", "Actual"])
-    return plt
+    return lin_reg(x, y, iters=15, orig_line=(a, b))
+
+
+def visualize_from_file(fn):
+    x, y = zip(*load_data(fn))
+    return lin_reg(x, y, iters=15)
 
 
 class PartA(Base):
@@ -78,15 +102,16 @@ class PartA(Base):
 
     def run(self, fnprovider: AbstractFilenameProvider):
         plt.clf()
-        lin_reg(*zip(*load_data('../resources/w11/linreg.txt'))).savefig(
-            fnprovider.get_filename('.png', 'linreg', 'Linreg'))
+        visualize_from_file('../resources/w11/linreg.txt').save(
+            fnprovider.get_filename('.gif', 'linreg', 'Linreg'), writer='imagemagick', fps=1)
 
         visualize_generated(lambda: random.uniform(-1, 1), random.random) \
-            .savefig(fnprovider.get_filename('.png', 'even_dist', 'Even distribution'))
+            .save(fnprovider.get_filename('.gif', 'even_dist', 'Even distribution'), writer='imagemagick', fps=1)
         visualize_generated(lambda: random.gauss(0, 1), random.random) \
-            .savefig(fnprovider.get_filename('.png', 'gauss_dist', 'Gaussian distribution'))
+            .save(fnprovider.get_filename('.gif', 'gauss_dist', 'Gaussian distribution'), writer='imagemagick', fps=1)
 
         visualize_generated(lambda: random.gauss(0, 1), lambda: random.lognormvariate(0, 1)) \
-            .savefig(fnprovider.get_filename('.png', 'gauss_log-normal_dist',
-                                             'Gaussian distribution with log-normal along the line'))
+            .save(fnprovider.get_filename('.gif', 'gauss_log-normal_dist',
+                                          'Gaussian distribution with log-normal along the line'), writer='imagemagick',
+                  fps=1)
         return fnprovider.format_files()
