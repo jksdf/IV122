@@ -54,6 +54,6 @@ class PartB(Base):
     def run(self, fnprovider: AbstractFilenameProvider):
         newton(20, ((-2, 2), (-1, 1)), 500, -0.73 + 0.19j, 'simple').save(
             fnprovider.get_filename(".png", "newton", "Newton"))
-        newton(20, ((-1.2, -0.8), (-0.1, -0.5)), 500, -0.73 + 0.19j, 'simple').save(
+        newton(20, ((-1.2, -0.8), (-0.5, -0.1)), 500, -0.73 + 0.19j, 'simple').save(
             fnprovider.get_filename(".png", "newton_zoomed", "Newton zoomed"))
         return fnprovider.format_files()
