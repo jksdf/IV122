@@ -15,3 +15,22 @@
 * [ ] Portfolio 12
 * [ ] Portfolio 13
 * [ ] Portfolio Dokoncit
+
+* [ ] Kod 1
+* [ ] Kod 2
+* [ ] Kod 3
+* [ ] Kod 4
+* [ ] Kod 5
+* [ ] Kod 6
+* [ ] Kod 7
+* [ ] Kod 8
+* [ ] Kod 9
+* [ ] Kod 10
+* [x] Kod 11 
+* [x] Kod 12
+  * [x] A
+  * [x] B
+* [x] Kod 13
+
+## Napady na zlepsenie:
+* 11/B - pridaj voronoi diagram na pozadie

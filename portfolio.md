@@ -1,9 +1,12 @@
 # Protfólio na IV122 (jaro 2019)
 ## Celkové hodnotenie
-Slabé stránky:
-* [TODO]
 
 Silné stránky:
+* [TODO]
+
+Slabé stránky:
+* Week 8 - MRCM - Nedokončené, mal som s tým veľké problémy a mám pocit, 
+že MRCM nerozumiem tak dobre, ako by som mal 
 * [TODO]
 
 ## Týždne:

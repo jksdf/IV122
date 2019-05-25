@@ -72,3 +72,8 @@ def intersect_linesegments(segment1, segment2) -> Optional[Tuple[Real, Real]]:
             and min(y1, y2) <= y <= max(y1, y2) and min(y3, y4) <= y <= max(y3, y4):
         return x, y
     return None
+
+
+def rotate(vector, radians):
+    return np.squeeze(np.asarray(
+        np.dot(np.matrix([[np.cos(radians), np.sin(radians)], [-np.sin(radians), np.cos(radians)]]), vector)))
