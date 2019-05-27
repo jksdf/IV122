@@ -27,6 +27,12 @@ def draw_mrcm(steps, init, newlocs,
     return img
 
 
+def square_with_corner(size):
+    lines = square(size)
+    lines.append((np.array([-size, -size, 1]), np.array([0, 0, 1])))
+    return lines
+
+
 class PartB(Base):
     name = 'B'
 
@@ -63,5 +69,17 @@ class PartB(Base):
             ],
             viewbox=(-10, -10, 70, 70),
             stroke=0.1).saveas(fnprovider.get_filename('.svg', 'sierpinsky_var1', 'Sierpinsky variant 1'))
+
+        draw_mrcm(
+            1,
+            apply(translation(25, 25), square_with_corner(25)),
+            [
+                mult(translation(0, -50), scale(0.5, -0.5)),
+                mult(translation(50, 0), scale(0.5, 0.5)),
+                mult(translation(-50, 50), scale(-0.5, 0.5))
+            ],
+            viewbox=(-10, -10, 70, 70),
+            stroke=0.1).saveas(
+            fnprovider.get_filename('.svg', 'sierpinsky_var1_1step', 'Sierpinsky variant 1 (1 step)'))
 
         return fnprovider.format_files()

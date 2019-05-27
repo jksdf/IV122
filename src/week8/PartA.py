@@ -89,7 +89,7 @@ def demo(fn: str, viewbox: Tuple[float, float, float, float], stepcount: int,
 
 
 def example1(fn: str) -> svgwrite.Drawing:
-    return demo(fn, (0, -100, 400, 500), 10, (rotation(20), scale(1.1, 1.1), translation(5, 10)), size=15)
+    return demo(fn, (-80,-50, 100, 200), 10, (rotation(20), scale(1.1, 1.1), translation(5, 10)), size=15)
 
 
 def example2(fn: str) -> svgwrite.Drawing:
