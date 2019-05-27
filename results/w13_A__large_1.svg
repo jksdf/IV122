@@ -4,332 +4,332 @@
   <g transform="translate(400,400)">
     <line stroke="black" transform="rotate(0.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
     <path d="m20,0 A 20 20 0 0,1 1.2246467991473533e-15 20.0" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
-    <path d="m20,0 A 20 20 0 0,1 1.2246467991473533e-15 20.0" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
+    <path d="m20,0 A 20 20 0 0,1 1.2246467991473533e-15 20.0" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
     <path d="m20,0 A 20 20 0 0,1 1.2246467991473533e-15 20.0" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="20" x2="40" y1="0" y2="0"/>
     <path d="m20,0 A 20 20 0 0,1 1.2246467991473533e-15 20.0" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
     <path d="m40,0 A 40 40 0 0,1 2.4492935982947065e-15 40.0" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
     <path d="m40,0 A 40 40 0 0,1 2.4492935982947065e-15 40.0" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
-    <path d="m40,0 A 40 40 0 0,1 2.4492935982947065e-15 40.0" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
+    <path d="m40,0 A 40 40 0 0,1 2.4492935982947065e-15 40.0" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="40" x2="60" y1="0" y2="0"/>
     <path d="m40,0 A 40 40 0 0,1 2.4492935982947065e-15 40.0" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
     <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
     <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
-    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
+    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
-    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
+    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
     <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
     <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
-    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
+    <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="60" x2="80" y1="0" y2="0"/>
     <path d="m60,0 A 60 60 0 0,1 42.42640687119285 42.426406871192846" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
     <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
-    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
     <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
-    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
+    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
     <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
-    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
+    <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
     <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="80" x2="100" y1="0" y2="0"/>
     <path d="m80,0 A 80 80 0 0,1 56.568542494923804 56.5685424949238" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
-    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
-    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
+    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
     <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
     <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
     <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
-    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
-    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
-    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
+    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="100" x2="120" y1="0" y2="0"/>
+    <path d="m100,0 A 100 100 0 0,1 70.71067811865476 70.71067811865474" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
     <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
     <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
-    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
+    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
     <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
-    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
+    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
-    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
+    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
     <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="120" x2="140" y1="0" y2="0"/>
-    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <path d="m120,0 A 120 120 0 0,1 84.8528137423857 84.85281374238569" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(112.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(202.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
-    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="140" x2="160" y1="0" y2="0"/>
+    <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="140" x2="160" y1="0" y2="0"/>
     <path d="m140,0 A 140 140 0 0,1 129.34313455158014 53.57568053111257" fill="none" stroke="black" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
-    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="160" x2="180" y1="0" y2="0"/>
     <path d="m160,0 A 160 160 0 0,1 147.82072520180589 61.22934917841437" fill="none" stroke="black" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(112.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(202.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
     <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="black" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="180" x2="200" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="180" x2="200" y1="0" y2="0"/>
-    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <path d="m180,0 A 180 180 0 0,1 166.2983158520316 68.88301782571617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(202.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
-    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="200" x2="220" y1="0" y2="0"/>
+    <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="200" x2="220" y1="0" y2="0"/>
     <path d="m200,0 A 200 200 0 0,1 184.77590650225736 76.53668647301795" fill="none" stroke="black" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="220" x2="240" y1="0" y2="0"/>
-    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="220" x2="240" y1="0" y2="0"/>
     <path d="m220,0 A 220 220 0 0,1 203.25349715248308 84.19035512031975" fill="none" stroke="black" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(67.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
     <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="240" x2="260" y1="0" y2="0"/>
-    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <path d="m240,0 A 240 240 0 0,1 221.73108780270883 91.84402376762155" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="260" x2="280" y1="0" y2="0"/>
     <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="260" x2="280" y1="0" y2="0"/>
-    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <path d="m260,0 A 260 260 0 0,1 240.20867845293455 99.49769241492335" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(112.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(157.5,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
@@ -337,20 +337,20 @@
     <line stroke="black" transform="rotate(315.0,0,0)" x1="280" x2="300" y1="0" y2="0"/>
     <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="280" x2="300" y1="0" y2="0"/>
-    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <path d="m280,0 A 280 280 0 0,1 258.68626910316027 107.15136106222513" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(11.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(11.25,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(56.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(56.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(78.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(78.75,0,0)"/>
@@ -358,306 +358,306 @@
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(101.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(101.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(123.75,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(146.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(146.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(157.5,0,0)"/>
     <line stroke="black" transform="rotate(168.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(168.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(191.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(191.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
     <line stroke="black" transform="rotate(213.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(236.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(236.25,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(258.75,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(281.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(303.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(303.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(303.75,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(326.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
-    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(348.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(326.25,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="300" x2="320" y1="0" y2="0"/>
+    <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(348.75,0,0)" x1="300" x2="320" y1="0" y2="0"/>
     <path d="m300,0 A 300 300 0 0,1 294.2355841209691 58.527096604838476" fill="none" stroke="black" transform="rotate(348.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
     <line stroke="black" transform="rotate(11.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(11.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(11.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(33.75,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(56.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(56.25,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(56.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(56.25,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(101.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
     <line stroke="black" transform="rotate(112.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(123.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(146.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(146.25,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(146.25,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
     <line stroke="black" transform="rotate(168.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
     <line stroke="black" transform="rotate(191.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(191.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
     <line stroke="black" transform="rotate(213.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)"/>
     <line stroke="black" transform="rotate(236.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(258.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(281.25,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(292.5,0,0)"/>
     <line stroke="black" transform="rotate(303.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
     <line stroke="black" transform="rotate(315.0,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(326.25,0,0)" x1="320" x2="340" y1="0" y2="0"/>
     <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="black" transform="rotate(326.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="320" x2="340" y1="0" y2="0"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(348.75,0,0)" x1="320" x2="340" y1="0" y2="0"/>
-    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
+    <path d="m320,0 A 320 320 0 0,1 313.85128972903374 62.428903045161036" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(11.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(33.75,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(56.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(56.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(56.25,0,0)"/>
     <line stroke="black" transform="rotate(67.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(67.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
     <line stroke="black" transform="rotate(90.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(101.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(101.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
     <line stroke="black" transform="rotate(123.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(123.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(123.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(146.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(146.25,0,0)"/>
     <line stroke="black" transform="rotate(157.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(180.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(191.25,0,0)"/>
     <line stroke="black" transform="rotate(202.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(213.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(258.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(281.25,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
     <line stroke="black" transform="rotate(303.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(303.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(326.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(326.25,0,0)" x1="340" x2="360" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="340" x2="360" y1="0" y2="0"/>
     <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="black" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(348.75,0,0)" x1="340" x2="360" y1="0" y2="0"/>
-    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m340,0 A 340 340 0 0,1 333.46699533709835 66.33070948548361" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(11.25,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(33.75,0,0)"/>
     <line stroke="black" transform="rotate(45.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(56.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(56.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(67.5,0,0)"/>
     <line stroke="black" transform="rotate(78.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(78.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(101.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(101.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(101.25,0,0)"/>
     <line stroke="black" transform="rotate(112.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(123.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(135.0,0,0)"/>
     <line stroke="black" transform="rotate(146.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(146.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(146.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(168.75,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(191.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(191.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)"/>
     <line stroke="black" transform="rotate(213.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(225.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(236.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(247.5,0,0)"/>
     <line stroke="black" transform="rotate(258.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(270.0,0,0)"/>
     <line stroke="black" transform="rotate(281.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(303.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(303.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(326.25,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(326.25,0,0)"/>
     <line stroke="black" transform="rotate(337.5,0,0)" x1="360" x2="380" y1="0" y2="0"/>
-    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(348.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
+    <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(348.75,0,0)" x1="360" x2="380" y1="0" y2="0"/>
     <path d="m360,0 A 360 360 0 0,1 353.08270094516297 70.23251592580617" fill="none" stroke="black" transform="rotate(348.75,0,0)"/>
     <line stroke="black" transform="rotate(0.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(0.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(11.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(11.25,0,0)"/>
     <line stroke="black" transform="rotate(22.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(22.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(33.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(33.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(45.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(45.0,0,0)"/>
     <line stroke="black" transform="rotate(56.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(56.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(67.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(78.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(90.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(90.0,0,0)"/>
     <line stroke="black" transform="rotate(101.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(101.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(112.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(123.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(123.75,0,0)"/>
     <line stroke="black" transform="rotate(135.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(135.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(146.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(146.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(146.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(157.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(157.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(168.75,0,0)"/>
     <line stroke="black" transform="rotate(180.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(180.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(191.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(191.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(202.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(202.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(213.75,0,0)"/>
     <line stroke="black" transform="rotate(225.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(225.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(236.25,0,0)"/>
     <line stroke="black" transform="rotate(247.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(247.5,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(258.75,0,0)"/>
     <line stroke="black" transform="rotate(270.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(281.25,0,0)"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(270.0,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(281.25,0,0)"/>
     <line stroke="black" transform="rotate(292.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(292.5,0,0)"/>
     <line stroke="black" transform="rotate(303.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(303.75,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(315.0,0,0)" x1="380" x2="400" y1="0" y2="0"/>
     <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="black" transform="rotate(315.0,0,0)"/>
     <line stroke="black" transform="rotate(326.25,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
-    <line stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(326.25,0,0)"/>
+    <line stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)" x1="380" x2="400" y1="0" y2="0"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(337.5,0,0)"/>
     <line stroke="black" transform="rotate(348.75,0,0)" x1="380" x2="400" y1="0" y2="0"/>
-    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="gray" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
+    <path d="m380,0 A 380 380 0 0,1 372.6984065532276 74.13432236612873" fill="none" stroke="#f0f0f0" stroke-dasharray="3" transform="rotate(348.75,0,0)"/>
     <path d="m400,0 A 400 400 0 0,1 392.3141121612922 78.0361288064513" fill="none" stroke="black" transform="rotate(0.0,0,0)"/>
     <path d="m400,0 A 400 400 0 0,1 392.3141121612922 78.0361288064513" fill="none" stroke="black" transform="rotate(11.25,0,0)"/>
     <path d="m400,0 A 400 400 0 0,1 392.3141121612922 78.0361288064513" fill="none" stroke="black" transform="rotate(22.5,0,0)"/>

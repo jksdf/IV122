@@ -84,7 +84,7 @@ def draw_puzzle(factor, tree: nx.Graph, layer_depth: float = 20):
             group.add(obj)
         else:
             obj.dasharray([3])
-            obj.stroke(color="gray")
+            obj.stroke(color="#f0f0f0")
             group.add(obj)
 
     cells = _get_cells(n, factor)
