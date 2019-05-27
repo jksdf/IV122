@@ -187,7 +187,7 @@ def animate_sokoban(fn, out_fn):
             crates.remove(sokoban)
             crates.add(add_tuple(sokoban, delta))
         frames.append(draw_state(game, crates, sokoban))
-    images.save_gif(frames, out_fn, duration=1000)
+    images.save_gif(frames, out_fn, duration=500)
 
 
 class PartB(Base):
