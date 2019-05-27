@@ -1,10 +1,10 @@
 import random
-from typing import List
 
 import numpy as np
 from PIL import Image
 
 from Base import Base, AbstractFilenameProvider
+from common.python.images import save_gif
 
 
 def _rotate(vector, degrees):
@@ -27,10 +27,6 @@ def chaos_game(n, step, k, r, seed=None, size=400):
             x = x * (1-r) + random.choice(points) * r
             img.putpixel((int(x[0]), int(x[1])), 0)
     return imgs
-
-
-def save_gif(imgs: List[Image.Image], fn: str, duration=100, loop=1):
-    imgs[0].save(fn, format='GIF', append_images=imgs[1:], save_all=True, duration=duration, loop=loop)
 
 
 class PartA(Base):

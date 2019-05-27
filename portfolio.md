@@ -7,6 +7,7 @@ Silné stránky:
 Slabé stránky:
 * Week 8 - MRCM - Nedokončené, mal som s tým veľké problémy a mám pocit, 
 že MRCM nerozumiem tak dobre, ako by som mal 
+* Week 5 - Delaunay - má bug, ktorý spôsobuje, že výstupom nie je triangulácia
 * [TODO]
 
 ## Týždne:

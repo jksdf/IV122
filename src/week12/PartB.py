@@ -2,8 +2,11 @@ import itertools
 from typing import TextIO, List, Tuple
 
 import networkx as nx
+from PIL import Image
 
 from Base import Base, AbstractFilenameProvider
+from common.python import images
+from common.python.tuples import add_tuple
 
 
 def load_map(fd: TextIO) -> List[List[str]]:
@@ -133,12 +136,66 @@ def solve_sokoban(fn):
     return coords_to_moves([idx_to_cell[x] for x, _ in shortest[1]])
 
 
+RESOURCES = {
+    ' ': Image.open('../resources/w12/tile_empty.png'),
+    'x': Image.open('../resources/w12/tile_goal.png'),
+    '#': Image.open('../resources/w12/tile_wall.png'),
+
+    'c': Image.open('../resources/w12/tile_crate.png'),
+    's': Image.open('../resources/w12/tile_sokoban.png'),
+
+}
+
+
+def draw_state(game, crates, sokoban, tile_size=32):
+    frame = Image.new('RGBA', (len(game) * tile_size, len(game[0]) * tile_size, ), color=(0, 0, 0, 255))
+    for ridx, row in enumerate(game):
+        for cidx, cell in enumerate(row):
+            frame.paste(RESOURCES[cell],
+                        (tile_size * ridx, tile_size * cidx, tile_size * (ridx + 1), tile_size * (cidx + 1)))
+    for crate in crates:
+        frame.paste(RESOURCES['c'],
+                    ((tile_size * crate[0], tile_size * crate[1], tile_size * (crate[0] + 1),
+                      tile_size * (crate[1] + 1))),
+                    mask=RESOURCES['c'])
+    frame.paste(RESOURCES['s'],
+                ((tile_size * sokoban[0], tile_size * sokoban[1], tile_size * (sokoban[0] + 1),
+                  tile_size * (sokoban[1] + 1))),
+                mask=RESOURCES['s'])
+    return frame
+
+
+def animate_sokoban(fn, out_fn):
+    moves = solve_sokoban(fn)
+    with open(fn, 'r') as fd:
+        game = load_map(fd)
+    crates = set()
+    sokoban = None
+    for ridx, row in enumerate(game):
+        for cidx, cell in enumerate(row):
+            if cell == 'c':
+                row[cidx] = ' '
+                crates.add((ridx, cidx))
+            elif cell == 's':
+                row[cidx] = ' '
+                sokoban = (ridx, cidx)
+    frames = [draw_state(game, crates, sokoban)]
+    for move in moves:
+        delta = {'UP': (-1, 0), 'DOWN': (1, 0), 'LEFT': (0, -1), 'RIGHT': (0, 1)}[move]
+        sokoban = add_tuple(sokoban, delta)
+        if sokoban in crates:
+            crates.remove(sokoban)
+            crates.add(add_tuple(sokoban, delta))
+        frames.append(draw_state(game, crates, sokoban))
+    images.save_gif(frames, out_fn, duration=1000)
+
+
 class PartB(Base):
     name = 'B'
 
     def run(self, fnprovider: AbstractFilenameProvider):
         """Sokoban. Prevzaté z https://www.umimematiku.cz"""
-        p1 = solve_sokoban('../resources/w12/sokoban1.txt')
-        p2 = solve_sokoban('../resources/w12/sokoban2.txt')
-        p3 = solve_sokoban('../resources/w12/sokoban3.txt')
-        return fnprovider.format_files(Simple=' -> '.join(p1), Hard=' -> '.join(p2), Slides=' -> '.join(p3))
+        animate_sokoban('../resources/w12/sokoban1.txt', fnprovider.get_filename('.gif', 'simple', "Simple"))
+        animate_sokoban('../resources/w12/sokoban2.txt', fnprovider.get_filename('.gif', 'hard', 'Hard'))
+        animate_sokoban('../resources/w12/sokoban3.txt', fnprovider.get_filename('.gif', 'slides', 'Slides'))
+        return fnprovider.format_files()
