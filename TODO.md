@@ -7,12 +7,12 @@
 * [x] Portfolio 5
 * [x] Portfolio 6
 * [x] Portfolio 7
-* [ ] Portfolio 8
+* [x] Portfolio 8
 * [x] Portfolio 9
-* [ ] Portfolio 10
+* [x] Velka noc
 * [x] Portfolio 11
 * [x] Portfolio 12
-* [ ] Portfolio 13
+* [x] Portfolio 13
 * [ ] Portfolio Dokoncit
 
 * [ ] Kod 1

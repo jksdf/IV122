@@ -10,8 +10,7 @@ class AbstractFilenameProvider:
 
     def get_filename(self, suffix=None, name=None, printable=None):
         fn = self._get_filename(suffix, name)
-        if printable is not None:
-            self.dict[printable] = fn
+        self.dict[printable if printable is not None else name] = fn
         if not fn.startswith('file://'):
             fn = fn
         return fn
