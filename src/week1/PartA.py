@@ -70,6 +70,3 @@ class PartA(Base):
 
     def run(self, fnprovider):
         return fnprovider.format_files(a1=a1(), a2=a2(fnprovider), a3=a3(), a4=a4(), a5=a5())
-        #
-        # ['{}: {}'.format(n + 1, s) for n, s in
-        #  enumerate([a1(), a2(fnprovider), a3(), a4(), a5()])])

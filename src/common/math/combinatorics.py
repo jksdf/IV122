@@ -38,7 +38,14 @@ def variations(k: int, data: List[Any]) -> Set[Tuple[Any, ...]]:
 
 
 def variations_repeated(k: int, data: List[Any]) -> Set[Tuple[Any, ...]]:
-    pass
+    if k == 0:
+        return {()}
+    prev = variations_repeated(k-1, data)
+    new = set()
+    for v in data:
+        for p in prev:
+            new.add((v,) + p)
+    return new
 
 
 class PascalTriangle:

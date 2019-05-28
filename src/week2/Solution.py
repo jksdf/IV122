@@ -4,14 +4,15 @@ from collections import namedtuple
 from typing import List, Any, Tuple, Iterable
 
 import matplotlib.colors
+import matplotlib.pyplot
 import numpy as np
 from PIL import Image
 
 import common.math.combinatorics as combinatorics
+from Base import Base, AbstractFilenameProvider
 from common.math import pi, arithmetics
 from common.python import sampling
 from common.python.tuples import mult_tuple
-from Base import Base, AbstractFilenameProvider
 
 
 class PartA(Base):
@@ -28,9 +29,6 @@ class PartA(Base):
         return self.comb(combinatorics.permutations(data), combinatorics.combinations(k, data),
                          combinatorics.combinations_repeated(k, data), combinatorics.variations(k, data),
                          combinatorics.variations_repeated(k, data))
-
-
-import matplotlib.pyplot
 
 
 class PartB(Base):

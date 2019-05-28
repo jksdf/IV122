@@ -5,6 +5,7 @@ Silné stránky:
 * [TODO]
 
 Slabé stránky:
+* Všade - môj kód nie je taký elegantný ako by mohol byť na ilustrovanie algoritmov
 * Week 8 - MRCM - Nedokončené, mal som s tým veľké problémy a mám pocit, 
 že MRCM nerozumiem tak dobre, ako by som mal 
 * Week 5 - Delaunay - má bug, ktorý spôsobuje, že výstupom nie je triangulácia
