@@ -1,10 +1,10 @@
-from typing import List, Any
+import math
+from typing import List
+
+import numpy as np
+from PIL import Image
 
 from Base import Base, AbstractFilenameProvider
-from PIL import Image
-import numpy as np
-import math
-
 from common.math.geometry import normalize
 from common.python.tuples import *
 
@@ -212,11 +212,11 @@ class PartD(Base):
     name = 'D'
 
     def run(self, fnprovider: AbstractFilenameProvider):
-        self.s1('resources/w4/skryvacka1.png').save(
+        self.s1('../resources/w4/skryvacka1.png').save(
             fnprovider.get_filename('.png', 'skryvacka1', 'Skrývačka 1'))
-        self.s2('resources/w4/skryvacka2.png').save(
+        self.s2('../resources/w4/skryvacka2.png').save(
             fnprovider.get_filename('.png', 'skryvacka2', 'Skrývačka 2'))
-        self.s3('resources/w4/skryvacka3.png').save(
+        self.s3('../resources/w4/skryvacka3.png').save(
             fnprovider.get_filename('.png', 'skryvacka3', 'Skrývačka 3'))
         return fnprovider.format_files()
 
@@ -252,4 +252,32 @@ class PartD(Base):
         return image
 
 
-SOLUTIONS: List[Base] = [PartA(), PartB(), PartC(), PartD()]
+class PartE(Base):
+    name = 'E'
+
+    def hide(self, public: Image.Image, hidden: Image.Image):
+        assert public.height == hidden.height and public.width == hidden.width
+        assert hidden.mode == '1'
+        for y in range(public.height):
+            for x in range(public.width):
+                source = list(public.getpixel((x, y)))
+                source[0] = ((source[0] >> 1) << 1) + (1 if hidden.getpixel((x, y)) != 0 else 0)
+                public.putpixel((x, y), tuple(source))
+        return public
+
+    def extract(self, public: Image.Image) -> Image.Image:
+        out = Image.new('1', (public.width, public.height))
+        for y in range(public.height):
+            for x in range(public.width):
+                out.putpixel((x, y), (public.getpixel((x, y))[0] % 2))
+        return out
+
+    def run(self, fnprovider: AbstractFilenameProvider):
+        hidden = self.hide(Image.open('../resources/w4/fi.png'), Image.open('../resources/w4/hidden.png'))
+        hidden.save(fnprovider.get_filename('.png', 'with_message', "Image with a hidden message"))
+        extracted = self.extract(hidden)
+        extracted.save(fnprovider.get_filename('.png', 'extracted_message', "Extracted message"))
+        return fnprovider.format_files()
+
+
+SOLUTIONS: List[Base] = [PartA(), PartB(), PartC(), PartD(), PartE()]
