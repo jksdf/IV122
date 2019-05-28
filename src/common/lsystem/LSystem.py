@@ -22,9 +22,11 @@ class LSystem:
                 turtle.right(angle)
             elif i == '-':
                 turtle.left(angle)
-            elif i == 'f':
+            elif i == '|':
+                turtle.left(180)
+            elif i.islower():
                 turtle.forward(step, usepen=False)
-            elif i == 'F':
+            elif i.isupper():
                 if thickness == 'constant':
                     thicknessVal = 1
                 elif thickness == 'sq':
@@ -32,8 +34,6 @@ class LSystem:
                 else:
                     raise ValueError()
                 turtle.forward(step, usepen=True, thickness=thicknessVal)
-            elif i.isalpha():
-                pass
             else:
                 raise ValueError("Incorrect action")
 
