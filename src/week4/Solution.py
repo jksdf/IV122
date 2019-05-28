@@ -83,7 +83,7 @@ class PartA(Base):
         for x in range(imgsize):
             for y in range(imgsize):
                 if y <= math.tan(math.pi / 3) * x and y <= -math.tan(math.pi / 3) * (x - imgsize):
-                    color = (0, 0, 0)  # TODO: better colors
+                    color = (0, 0, 0)
                     img.putpixel((imgsize - x - 1, imgsize - y - 1), color)
         return img
 

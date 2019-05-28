@@ -2,7 +2,10 @@
 ## Celkové hodnotenie
 
 Silné stránky:
-* [TODO]
+* Týždeň 13 - generovanie kruhového bludiska bolo ťažšie, než sa na prvý pohľad môže zdať.
+Kód tam nie je najprehľadnejší, ale to je dané tým, že ten kód prešiel množstvom rôznych iterácii aby vznikali hrateľné plány.
+* Týždeň 7 - mandelbrotova množina na GPU. Naučil som sa niečo nové a pritom som dosiahol neuveriteľné zrýchlenie.
+* Týždeň 11 - som spokojný s tým, ako som vykresľoval dáta a aké mám výsledky. 
 
 Slabé stránky:
 * Všade - môj kód nie je taký elegantný ako by mohol byť na ilustrovanie algoritmov
